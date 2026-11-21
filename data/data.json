@@ -1,0 +1,1121 @@
+{
+  "$schema": "./schema.json",
+  "schema_version": 1,
+  "version": "2026-11-20.3",
+  "game_build": 26807668,
+  "credits": [
+    {
+      "name": "Kefir (ROB RUN game data)",
+      "url": "https://kefirgames.com/"
+    }
+  ],
+  "source": {
+    "game_version": "0.7.0",
+    "references_url": "https://rob-run-game-public.cachefly.net/prod/static/references.dat-f06d6941-50",
+    "sha256": "4cc9755a57614edbec6584046e63187b85f79fd5c80e4f856926df108c43bfd7"
+  },
+  "items": [
+    { "id": "action_camera_1_cumulative", "name": "Action Camera", "sprite": "action_camera_1_cumulative", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 29, "durability": 0 },
+    { "id": "action_camera_1_full", "name": "Action Camera", "sprite": "action_camera_1_full", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 125000, "item_type": 12, "durability": 0 },
+    { "id": "action_camera_2_cumulative", "name": "Action Camera", "sprite": "action_camera_2_cumulative", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 30000, "item_type": 29, "durability": 0 },
+    { "id": "action_camera_2_full", "name": "Action Camera", "sprite": "action_camera_2_full", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 250000, "item_type": 12, "durability": 0 },
+    { "id": "action_camera_3_cumulative", "name": "Action Camera", "sprite": "action_camera_3_cumulative", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 50000, "item_type": 29, "durability": 0 },
+    { "id": "action_camera_3_full", "name": "Action Camera", "sprite": "action_camera_3_full", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 500000, "item_type": 12, "durability": 0 },
+    { "id": "afak_1", "name": "AFAK", "sprite": "afak_1", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 500, "item_type": 11, "durability": 0 },
+    { "id": "alcohol_1", "name": "Black Pirate Bottle", "sprite": "Alcohol_1", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 765, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_10", "name": "Old Pocket Bottle", "sprite": "Alcohol_10", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 11900, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_11", "name": "Rosefield Bottle", "sprite": "Alcohol_11", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 13400, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_12", "name": "Krystal Authority Bottle", "sprite": "Alcohol_12", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 59900, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_13", "name": "Amber Shift Bottle", "sprite": "Alcohol_13", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 67850, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_14", "name": "Velvet Dynasty Bottle", "sprite": "Alcohol_14", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 65400, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_15", "name": "King’s Reserve Bottle", "sprite": "Alcohol_15", "footprint": [1, 2], "rarity": 6, "stack_size": 1, "base_price": 500000, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_2", "name": "Krystal Light Bottle", "sprite": "Alcohol_4", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 11475, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_3", "name": "Diamond Breeze Bottle", "sprite": "Alcohol_3", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 825, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_4", "name": "Happy Forester Bottle", "sprite": "Alcohol_2", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 725, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_5", "name": "Golden Jaguar Bottle", "sprite": "Alcohol_5", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 69250, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_6", "name": "Eclipse Bottle", "sprite": "Alcohol_6", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 12790, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_7", "name": "Fine Wine Bottle", "sprite": "Alcohol_7", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 780, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_8", "name": "Severka Bottle", "sprite": "Alcohol_8", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 860, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_9", "name": "Omega Bottle", "sprite": "Alcohol_9", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 790, "item_type": 12, "durability": 0 },
+    { "id": "alcohol_box_1", "name": "Alcohol", "sprite": "alcohol_box_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 125, "item_type": 12, "durability": 0 },
+    { "id": "antique_1", "name": "Deity Statue", "sprite": "antique_1", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 10750, "item_type": 12, "durability": 0 },
+    { "id": "antique_2", "name": "Golden Cat Statue", "sprite": "antique_2", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 11665, "item_type": 12, "durability": 0 },
+    { "id": "antique_3", "name": "Wooden Figure", "sprite": "antique_3", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 715, "item_type": 12, "durability": 0 },
+    { "id": "antique_4", "name": "Stone Maiden Statue", "sprite": "antique_4", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 68550, "item_type": 12, "durability": 0 },
+    { "id": "antique_5", "name": "Wooden Totem", "sprite": "antique_5", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 865, "item_type": 12, "durability": 0 },
+    { "id": "antique_6", "name": "Copper Pitcher", "sprite": "antique_6", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 800, "item_type": 12, "durability": 0 },
+    { "id": "antique_set_1", "name": "Cheap Antiques", "sprite": "antique_set_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 125, "item_type": 12, "durability": 0 },
+    { "id": "apscalar_m1", "name": "AP Scalar Mk1", "sprite": "apscalar_m1", "footprint": [3, 2], "rarity": 5, "stack_size": 1, "base_price": 115000, "item_type": 14, "durability": 3 },
+    { "id": "apscalar_m2", "name": "AP Scalar Mk2", "sprite": "apscalar_m2", "footprint": [3, 2], "rarity": 5, "stack_size": 1, "base_price": 115000, "item_type": 14, "durability": 3 },
+    { "id": "apscalar_m3", "name": "AP Scalar Mk3", "sprite": "apscalar_m3", "footprint": [3, 2], "rarity": 5, "stack_size": 1, "base_price": 115000, "item_type": 14, "durability": 3 },
+    { "id": "armor_plate_1", "name": "Steel Plate", "sprite": "armor_plate_1", "footprint": [1, 1], "rarity": 2, "stack_size": 5, "base_price": 1000, "item_type": 2, "durability": 0 },
+    { "id": "armor_plate_2", "name": "Steel Plate", "sprite": "armor_plate_1", "footprint": [1, 1], "rarity": 5, "stack_size": 5, "base_price": 5000, "item_type": 2, "durability": 0 },
+    { "id": "auto_flipper_1", "name": "Jammer", "sprite": "auto_flipper_1", "footprint": [1, 1], "rarity": 6, "stack_size": 1, "base_price": 160000, "item_type": 12, "durability": 0 },
+    { "id": "backpack_2", "name": "Sports Bag", "sprite": "backpack_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 4, "durability": 0 },
+    { "id": "backpack_3", "name": "Sports Bag", "sprite": "backpack_3", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 15000, "item_type": 4, "durability": 0 },
+    { "id": "backpack_4", "name": "Sports Bag", "sprite": "backpack_4", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 40000, "item_type": 4, "durability": 0 },
+    { "id": "bank_cash_bag", "name": "Bank Money Bag", "sprite": "Cargo_CashBag_01", "footprint": null, "rarity": 5 },
+    { "id": "baseball_card_1", "name": "Eason McKinley Card", "sprite": "Baseball_Card_1", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 56390, "item_type": 12, "durability": 0 },
+    { "id": "baseball_card_2", "name": "Damon Strickland Card", "sprite": "Baseball_Card_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 525, "item_type": 12, "durability": 0 },
+    { "id": "baseball_card_3", "name": "Maxwell Rivers Card", "sprite": "Baseball_Card_3", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 540, "item_type": 12, "durability": 0 },
+    { "id": "baseball_card_4", "name": "Trent Carver Card", "sprite": "Baseball_Card_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 7800, "item_type": 12, "durability": 0 },
+    { "id": "baseball_card_5", "name": "Bradley Sanderson Card", "sprite": "Baseball_Card_5", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8440, "item_type": 12, "durability": 0 },
+    { "id": "baseball_card_6", "name": "Harley Wanger Card", "sprite": "Baseball_Card_6", "footprint": [1, 1], "rarity": 6, "stack_size": 1, "base_price": 543300, "item_type": 12, "durability": 0 },
+    { "id": "belt_1", "name": "Versatile Pouch", "sprite": "belt_1", "footprint": [1, 1], "rarity": 1, "stack_size": 1, "base_price": 250, "item_type": 5, "durability": 0 },
+    { "id": "belt_2", "name": "Versatile Pouch", "sprite": "belt_2", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 1200, "item_type": 5, "durability": 0 },
+    { "id": "belt_3", "name": "Versatile Pouch", "sprite": "belt_3", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 2700, "item_type": 5, "durability": 0 },
+    { "id": "belt_4", "name": "Versatile Pouch", "sprite": "belt_4", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 12000, "item_type": 5, "durability": 0 },
+    { "id": "blade_1", "name": "Imperial Collectible Knife", "sprite": "blade_1", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1260, "item_type": 12, "durability": 0 },
+    { "id": "blade_2", "name": "Aeron Collectible Knife", "sprite": "blade_2", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1475, "item_type": 12, "durability": 0 },
+    { "id": "blade_3", "name": "Streamline Collectible Knife", "sprite": "blade_3", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 12520, "item_type": 12, "durability": 0 },
+    { "id": "blade_4", "name": "Cyber Collectible Knife", "sprite": "blade_4", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 13120, "item_type": 12, "durability": 0 },
+    { "id": "blade_5", "name": "Nightfall Collectible Knife", "sprite": "blade_5", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 69460, "item_type": 12, "durability": 0 },
+    { "id": "blade_6", "name": "Shade Collectible Knife", "sprite": "blade_6", "footprint": [2, 1], "rarity": 6, "stack_size": 1, "base_price": 499460, "item_type": 12, "durability": 0 },
+    { "id": "bolt_cutter", "name": "Bolt Cutter", "sprite": "bolt_cutter_1", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 3000, "item_type": 39, "durability": 0 },
+    { "id": "broken_video_card", "name": "Warehouse", "sprite": "police_radio_1", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 1000, "item_type": 35, "durability": 0 },
+    { "id": "buletti_soltempra", "name": "Buletti Soltempra", "sprite": "buletti_soltempra", "footprint": [2, 2], "rarity": 6, "stack_size": 1, "base_price": 10000000, "item_type": 17, "durability": 0 },
+    { "id": "burner_1", "name": "Camping Stove", "sprite": "burner_1", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 870, "item_type": 12, "durability": 0 },
+    { "id": "burner_2", "name": "Field Stove", "sprite": "burner_2", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 13050, "item_type": 12, "durability": 0 },
+    { "id": "burner_3", "name": "High-precision Stove", "sprite": "burner_3", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 82260, "item_type": 12, "durability": 0 },
+    { "id": "bush_drugs_1", "name": "Harvest Bag", "sprite": "bush_drugs_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 10000, "item_type": 12, "durability": 0 },
+    { "id": "bush_drugs_2", "name": "Harvest Bag", "sprite": "bush_drugs_1", "footprint": [1, 1], "rarity": 4, "stack_size": 10, "base_price": 15000, "item_type": 12, "durability": 0 },
+    { "id": "bush_drugs_3", "name": "Harvest Bag", "sprite": "bush_drugs_1", "footprint": [1, 1], "rarity": 5, "stack_size": 10, "base_price": 20000, "item_type": 12, "durability": 0 },
+    { "id": "bush_growing_1", "name": "Growing Bush", "sprite": "marijuana_bush_2", "footprint": null, "rarity": 2 },
+    { "id": "bush_mature_1", "name": "Mature Bush", "sprite": "marijuana_bush_3", "footprint": null, "rarity": 2 },
+    { "id": "camera_1", "name": "EOS 900 Camera", "sprite": "Camera_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 390, "item_type": 12, "durability": 0 },
+    { "id": "camera_2", "name": "ISE S770 Camera", "sprite": "Camera_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 525, "item_type": 12, "durability": 0 },
+    { "id": "camera_3", "name": "CIRCUM 360 Camera", "sprite": "Camera_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 6240, "item_type": 12, "durability": 0 },
+    { "id": "car_cargo_1", "name": "Cargo Rack", "sprite": "car_cargo_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 86500, "item_type": 28, "durability": 0 },
+    { "id": "car_cargo_2", "name": "Reinforced Cargo Rack", "sprite": "car_cargo_1", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 350000, "item_type": 28, "durability": 0 },
+    { "id": "car_device_1", "name": "Affordable Dashcam", "sprite": "car_device_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 700, "item_type": 12, "durability": 0 },
+    { "id": "car_device_2", "name": "Cheap Car Stereo", "sprite": "car_device_4", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1100, "item_type": 12, "durability": 0 },
+    { "id": "car_device_3", "name": "Dashcam", "sprite": "car_device_2", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8800, "item_type": 12, "durability": 0 },
+    { "id": "car_device_4", "name": "Car Stereo", "sprite": "car_device_5", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 10200, "item_type": 12, "durability": 0 },
+    { "id": "car_device_5", "name": "Premium Dashcam", "sprite": "car_device_3", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 53200, "item_type": 12, "durability": 0 },
+    { "id": "car_device_6", "name": "Premium Car Stereo", "sprite": "car_device_6", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 64200, "item_type": 12, "durability": 0 },
+    { "id": "car_ecu_1", "name": "ECU", "sprite": "car_ecu_1", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 14000, "item_type": 28, "durability": 0 },
+    { "id": "car_ecu_2", "name": "Improved ECU", "sprite": "car_ecu_1", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 75000, "item_type": 28, "durability": 0 },
+    { "id": "car_ecu_3", "name": "High-performance ECU", "sprite": "car_ecu_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 330000, "item_type": 28, "durability": 0 },
+    { "id": "car_engine_cooling_1", "name": "Intercooler", "sprite": "car_engine_cooling_1", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 72000, "item_type": 28, "durability": 0 },
+    { "id": "car_engine_cooling_2", "name": "Improved Intercooler", "sprite": "car_engine_cooling_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 270000, "item_type": 28, "durability": 0 },
+    { "id": "car_garage_1", "name": "Car Garage", "sprite": "car_garage_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 25000, "item_type": 21, "durability": 0 },
+    { "id": "car_garage_2", "name": "Large Car Garage", "sprite": "car_garage_2", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 70000, "item_type": 21, "durability": 0 },
+    { "id": "car_inventory_1", "name": "Trunk Bags", "sprite": "car_inventory_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 1200, "item_type": 28, "durability": 0 },
+    { "id": "car_inventory_2", "name": "Large Trunk Bags", "sprite": "car_inventory_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 70500, "item_type": 28, "durability": 0 },
+    { "id": "car_inventory_3", "name": "Spacious Trunk Bags", "sprite": "car_inventory_1", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 270000, "item_type": 28, "durability": 0 },
+    { "id": "car_lift_1", "name": "Car Lift", "sprite": "carlift_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 10000, "item_type": 21, "durability": 0 },
+    { "id": "car_parts_1", "name": "Royal Motors Emblem", "sprite": "car_parts_1", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 42690, "item_type": 12, "durability": 0 },
+    { "id": "car_parts_2", "name": "Car Headlight", "sprite": "car_parts_2", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 825, "item_type": 12, "durability": 0 },
+    { "id": "car_parts_3", "name": "Jack", "sprite": "car_parts_3", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 11875, "item_type": 12, "durability": 0 },
+    { "id": "car_parts_4", "name": "DW-04", "sprite": "car_parts_4", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 615, "item_type": 12, "durability": 0 },
+    { "id": "car_parts_5", "name": "Steering Wheel", "sprite": "car_parts_5", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 13400, "item_type": 12, "durability": 0 },
+    { "id": "car_parts_6", "name": "Spark Plugs", "sprite": "car_parts_6", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 700, "item_type": 12, "durability": 0 },
+    { "id": "car_parts_7", "name": "Car Compressor", "sprite": "car_parts_7", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 12400, "item_type": 12, "durability": 0 },
+    { "id": "car_parts_8", "name": "Premium Car Compressor", "sprite": "car_parts_8", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 74400, "item_type": 12, "durability": 0 },
+    { "id": "car_police_radio_1", "name": "Police Radio", "sprite": "car_police_radio_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 300000, "item_type": 28, "durability": 0 },
+    { "id": "car_spare_parts_1", "name": "Car Parts", "sprite": "car_spare_parts_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 125, "item_type": 12, "durability": 0 },
+    { "id": "car_steering_rack_1", "name": "Steering Rack", "sprite": "car_steering_rack_1", "footprint": [1, 2], "rarity": 4, "stack_size": 1, "base_price": 68000, "item_type": 28, "durability": 0 },
+    { "id": "car_steering_rack_2", "name": "Reinforced Steering Rack", "sprite": "car_steering_rack_1", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 270000, "item_type": 28, "durability": 0 },
+    { "id": "car_suspension_1", "name": "Brake Rotor", "sprite": "car_suspension_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 11500, "item_type": 28, "durability": 0 },
+    { "id": "car_suspension_2", "name": "Racing Rotor", "sprite": "car_suspension_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 61500, "item_type": 28, "durability": 0 },
+    { "id": "car_trinket_1", "name": "Hanging Dice", "sprite": "car_trinket_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 400, "item_type": 12, "durability": 0 },
+    { "id": "car_trinket_2", "name": "Air Freshener", "sprite": "car_trinket_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 450, "item_type": 12, "durability": 0 },
+    { "id": "car_trinket_3", "name": "Car Perfume", "sprite": "car_trinket_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 6400, "item_type": 12, "durability": 0 },
+    { "id": "car_trinket_4", "name": "Racer Keychain", "sprite": "car_trinket_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 5500, "item_type": 12, "durability": 0 },
+    { "id": "car_trinket_5", "name": "Pit Bull Bobblehead", "sprite": "car_trinket_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 50400, "item_type": 12, "durability": 0 },
+    { "id": "car_trinket_6", "name": "Plush Car Charm", "sprite": "car_trinket_6", "footprint": [1, 1], "rarity": 6, "stack_size": 1, "base_price": 480400, "item_type": 12, "durability": 0 },
+    { "id": "car_turbocharger_1", "name": "Turbo Kit", "sprite": "car_turbocharger_1", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 79500, "item_type": 28, "durability": 0 },
+    { "id": "car_turbocharger_2", "name": "Improved Turbo Kit", "sprite": "car_turbocharger_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 238000, "item_type": 28, "durability": 0 },
+    { "id": "cargo_alcohol_grade_1", "name": "Contraband Cargo", "sprite": "Cargo_Exchange_01_Grade_1", "footprint": null, "rarity": 2 },
+    { "id": "cargo_alcohol_grade_2", "name": "Premium Cargo", "sprite": "Cargo_Exchange_01_Grade_2", "footprint": null, "rarity": 4 },
+    { "id": "cargo_alcohol_grade_3", "name": "Rarity Cargo", "sprite": "Cargo_Exchange_01_Grade_3", "footprint": null, "rarity": 5 },
+    { "id": "cargo_carparts", "name": "Spare Parts Crate", "sprite": "Cargo_Spare_Parts", "footprint": null, "rarity": 4 },
+    { "id": "cargo_charge_workbench_garden_bed", "name": "Grow Table", "sprite": "cargo_table_marijuana", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 40000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_charge_workbench_lab_freezer_1", "name": "Industrial Freezer", "sprite": "laboratory_freezer_small", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 20000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_charge_workbench_lab_freezer_2", "name": "Industrial Freezer", "sprite": "laboratory_freezer_big", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 90000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_charge_workbench_lab_freezer_3", "name": "Industrial Freezer", "sprite": "laboratory_freezer_big", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 250000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_charge_workbench_upgrade_evaporator_1", "name": "Improved Evaporator", "sprite": "improved_evaporator", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 100000, "item_type": 37, "durability": 0 },
+    { "id": "cargo_charge_workbench_upgrade_refrigerant_1", "name": "Quality Refrigerant", "sprite": "refrigerating", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 250000, "item_type": 37, "durability": 0 },
+    { "id": "cargo_electronics", "name": "Electronics Crate", "sprite": "Cargo_Electronics", "footprint": null, "rarity": 4 },
+    { "id": "cargo_equip", "name": "Equipment Crate", "sprite": "Cargo_MetalBox_01", "footprint": null, "rarity": 4 },
+    { "id": "cargo_exchange_workbench_1", "name": "Contraband Workbench", "sprite": "cargo_exchange_workbench_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 20000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_exchange_workbench_additional_double_slot_upgrade", "name": "Tool Box", "sprite": "cargo_exchange_workbench_additional_slot", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 400000, "item_type": 24, "durability": 0 },
+    { "id": "cargo_exchange_workbench_additional_slot_upgrade", "name": "Tool Box", "sprite": "cargo_exchange_workbench_additional_slot", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 200000, "item_type": 24, "durability": 0 },
+    { "id": "cargo_exchange_workbench_speedup_upgrade_1", "name": "Label Printer", "sprite": "sticker_printing_machine", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 30000, "item_type": 24, "durability": 0 },
+    { "id": "cargo_exchange_workbench_speedup_upgrade_2", "name": "Label Printer", "sprite": "sticker_printing_machine", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 150000, "item_type": 24, "durability": 0 },
+    { "id": "cargo_jewelry", "name": "Jewelry Box", "sprite": "Cargo_Jewelry", "footprint": null, "rarity": 4 },
+    { "id": "cargo_manifest_1_cumulative", "name": "Cargo Sheet", "sprite": "cargo_manifest_1_cumulative", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 29, "durability": 0 },
+    { "id": "cargo_manifest_1_full", "name": "Cargo Sheet", "sprite": "cargo_manifest_1_full", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 150000, "item_type": 12, "durability": 0 },
+    { "id": "cargo_manifest_2_cumulative", "name": "Cargo Sheet", "sprite": "cargo_manifest_2_cumulative", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 30000, "item_type": 29, "durability": 0 },
+    { "id": "cargo_manifest_2_full", "name": "Cargo Sheet", "sprite": "cargo_manifest_2_full", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 200000, "item_type": 12, "durability": 0 },
+    { "id": "cargo_manifest_3_cumulative", "name": "Cargo Sheet", "sprite": "cargo_manifest_1_cumulative", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 60000, "item_type": 29, "durability": 0 },
+    { "id": "cargo_manifest_3_full", "name": "Cargo Sheet", "sprite": "cargo_manifest_1_full", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 750000, "item_type": 12, "durability": 0 },
+    { "id": "cargo_medicine", "name": "Medications Crate", "sprite": "Cargo_ Pharmacy", "footprint": null, "rarity": 4 },
+    { "id": "cargo_minimarket", "name": "Alcohol Crate", "sprite": "Cargo_Alcohol", "footprint": null, "rarity": 4 },
+    { "id": "cargo_open_workbench_upgrade_additional_slot_2", "name": "Laboratory Scales", "sprite": "chemical_scales", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 23, "durability": 0 },
+    { "id": "cargo_production_workbench_1", "name": "Chemical Reactor", "sprite": "chemical_reactor", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 40000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_production_workbench_2", "name": "Chemical Reactor", "sprite": "chemical_reactor_medium", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 300000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_production_workbench_3", "name": "Chemical Reactor", "sprite": "chemical_reactor_latge", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 700000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_production_workbench_upgrade_converter_1", "name": "Chemical Converter", "sprite": "chemical_converter_1", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 300000, "item_type": 25, "durability": 0 },
+    { "id": "cargo_production_workbench_upgrade_engine_1", "name": "Industrial Engine", "sprite": "mixing_engine", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 20000, "item_type": 25, "durability": 0 },
+    { "id": "cargo_production_workbench_upgrade_thermometer_1", "name": "Industrial Thermometer", "sprite": "Industrial_Thermometer_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 120000, "item_type": 25, "durability": 0 },
+    { "id": "cargo_safe", "name": "Portable Safe", "sprite": "Cargo_Safe_01", "footprint": null, "rarity": 5 },
+    { "id": "cargo_safe_legendary", "name": "Expensive Safe", "sprite": "Cargo_Safe_Legendary_01", "footprint": null, "rarity": 6 },
+    { "id": "cargo_statue_1", "name": "Golden Statue", "sprite": "Cargo_Statue_01", "footprint": null, "rarity": 5 },
+    { "id": "cargo_statue_2", "name": "Golden Statue", "sprite": "Cargo_Statue_02", "footprint": null, "rarity": 5 },
+    { "id": "cargo_statue_3", "name": "Golden Statue", "sprite": "Cargo_Statue_03", "footprint": null, "rarity": 5 },
+    { "id": "cargo_statue_4", "name": "Golden Statue", "sprite": "Cargo_Statue_04", "footprint": null, "rarity": 5 },
+    { "id": "cargo_workbench_1", "name": "Cargo Workbench", "sprite": "cargo_open_workbench_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_workbench_circular_saw_1", "name": "Cargo Saw", "sprite": "cargo_open_workbench_circular_saw_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 41000, "item_type": 23, "durability": 0 },
+    { "id": "cargo_workbench_lab_table_1", "name": "Lab Table", "sprite": "laboratory_table", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 22, "durability": 0 },
+    { "id": "cargo_workbench_plasma_cutter_1", "name": "Plasma Cargo Cutter", "sprite": "cargo_open_workbench_plasma_cutter_1", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 83000, "item_type": 23, "durability": 0 },
+    { "id": "cargo_workbench_slot_1", "name": "Bench Vise", "sprite": "cargo_open_workbench_slot_1", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 250000, "item_type": 23, "durability": 0 },
+    { "id": "cargo_workbench_toolbox_1", "name": "Locksmith Tools", "sprite": "cargo_open_workbench_toolbox_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 23, "durability": 0 },
+    {
+      "id": "cash_1",
+      "name": "Cash",
+      "sprite": "cash_1",
+      "stack_sprites": [
+        {
+          "min_count": 10000,
+          "sprite": "cash_2"
+        },
+        {
+          "min_count": 20000,
+          "sprite": "cash_3"
+        }
+      ],
+      "footprint": [
+        1,
+        1
+      ],
+      "rarity": 2,
+      "stack_size": 25000,
+      "base_price": 1,
+      "item_type": 15,
+      "durability": 0
+    },
+    { "id": "cash_bag", "name": "Closed Money Bag", "sprite": "Cargo_CashBag_02", "footprint": null, "rarity": 2 },
+    { "id": "cb45_m1", "name": "CB45 Mk1", "sprite": "cb45_m1", "footprint": [3, 2], "rarity": 2, "stack_size": 1, "base_price": 3780, "item_type": 14, "durability": 3 },
+    { "id": "cb45_m2", "name": "CB45 Mk2", "sprite": "cb45_m2", "footprint": [3, 2], "rarity": 2, "stack_size": 1, "base_price": 3780, "item_type": 14, "durability": 3 },
+    { "id": "cb45_m3", "name": "CB45 Mk3", "sprite": "cb45_m3", "footprint": [3, 2], "rarity": 2, "stack_size": 1, "base_price": 3780, "item_type": 14, "durability": 3 },
+    { "id": "cigar_1", "name": "Lucky Shot Cigarettes", "sprite": "cigar_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 475, "item_type": 12, "durability": 0 },
+    { "id": "cigar_2", "name": "Old Huba Cigars", "sprite": "cigar_2", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 14175, "item_type": 12, "durability": 0 },
+    { "id": "cigar_3", "name": "KeKe Cigarettes", "sprite": "cigar_3", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 575, "item_type": 12, "durability": 0 },
+    { "id": "clan_alarm_1", "name": "Alarm System", "sprite": "clan_alarm_1", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 200000, "item_type": 31, "durability": 0 },
+    { "id": "collection_reward_cargo_0", "name": "Collection Crate", "sprite": "Cargo_CollectionBox_01", "footprint": null, "rarity": 2 },
+    { "id": "collection_reward_cargo_10", "name": "Collection Crate", "sprite": "Cargo_CollectionBox_02", "footprint": null, "rarity": 2 },
+    { "id": "collection_reward_cargo_14", "name": "Rare Collection Crate", "sprite": "Cargo_CollectionBox_03", "footprint": null, "rarity": 4 },
+    { "id": "collection_reward_cargo_24", "name": "Unique Collection Crate", "sprite": "Cargo_CollectionBox_04", "footprint": null, "rarity": 5 },
+    { "id": "collection_table", "name": "Collection Table", "sprite": "collection_table", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 22, "durability": 0 },
+    { "id": "collection_upgrade_1", "name": "Additional Collection", "sprite": "collection_upgrade_1", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 34000, "item_type": 26, "durability": 0 },
+    { "id": "collection_upgrade_2", "name": "Special Collection", "sprite": "collection_upgrade_2", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 100000, "item_type": 26, "durability": 0 },
+    { "id": "collection_upgrade_3", "name": "Unique Collection", "sprite": "collection_upgrade_3", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 250000, "item_type": 26, "durability": 0 },
+    { "id": "comics_1", "name": "HELGRIM Comic Book", "sprite": "Comics_1", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 875, "item_type": 12, "durability": 0 },
+    { "id": "comics_2", "name": "TADASHI Comic Book", "sprite": "Comics_2", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1165, "item_type": 12, "durability": 0 },
+    { "id": "comics_3", "name": "DIGITAL SOUL Comic Book", "sprite": "Comics_3", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 12765, "item_type": 12, "durability": 0 },
+    { "id": "comics_4", "name": "KAIRO Comic Book", "sprite": "Comics_4", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 16725, "item_type": 12, "durability": 0 },
+    { "id": "comics_5", "name": "MASK Comic Book", "sprite": "Comics_5", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 75450, "item_type": 12, "durability": 0 },
+    { "id": "condoms_1", "name": "Burex Condoms", "sprite": "Condoms_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 575, "item_type": 12, "durability": 0 },
+    { "id": "condoms_2", "name": "Context Condoms", "sprite": "Condoms_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 500, "item_type": 12, "durability": 0 },
+    { "id": "condoms_3", "name": "Zipit Condoms", "sprite": "Condoms_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 7150, "item_type": 12, "durability": 0 },
+    { "id": "condoms_4", "name": "LUX Condoms", "sprite": "Condoms_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8915, "item_type": 12, "durability": 0 },
+    { "id": "condoms_5", "name": "Playgirl Condoms", "sprite": "Condoms_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 57400, "item_type": 12, "durability": 0 },
+    { "id": "console_1", "name": "Key-Ten-Do Console", "sprite": "console_1", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1175, "item_type": 12, "durability": 0 },
+    { "id": "console_2", "name": "X-STATION Console", "sprite": "console_2", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 650, "item_type": 12, "durability": 0 },
+    { "id": "console_3", "name": "ZTX Console", "sprite": "console_3", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 14950, "item_type": 12, "durability": 0 },
+    { "id": "console_4", "name": "G-Cube Console", "sprite": "console_4", "footprint": [2, 2], "rarity": 4, "stack_size": 3, "base_price": 24890, "item_type": 12, "durability": 0 },
+    { "id": "console_5", "name": "X-STATION VR Console", "sprite": "console_5", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 70875, "item_type": 12, "durability": 0 },
+    { "id": "crypto_farm_1", "name": "Warehouse", "sprite": "police_radio_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 24000, "item_type": 21, "durability": 0 },
+    { "id": "crypto_wallet", "name": "Warehouse", "sprite": "police_radio_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 10000, "item_type": 12, "durability": 0 },
+    { "id": "crypto_workbench_1", "name": "Warehouse", "sprite": "police_radio_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 10000, "item_type": 22, "durability": 0 },
+    { "id": "crypto_workbench_cooling_upgrade", "name": "Warehouse", "sprite": "police_radio_1", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 10000, "item_type": 36, "durability": 0 },
+    { "id": "crypto_workbench_speedup_upgrade", "name": "Warehouse", "sprite": "police_radio_1", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 10000, "item_type": 36, "durability": 0 },
+    { "id": "cube_1", "name": "Puzzle", "sprite": "rubiks_cube_1", "footprint": [1, 1], "rarity": 1, "stack_size": 1, "base_price": 20, "item_type": 40, "durability": 0 },
+    { "id": "cube_2", "name": "Puzzle", "sprite": "rubiks_cube_2", "footprint": [1, 1], "rarity": 1, "stack_size": 1, "base_price": 20, "item_type": 40, "durability": 0 },
+    { "id": "cube_3", "name": "Puzzle", "sprite": "rubiks_cube_3", "footprint": [1, 1], "rarity": 1, "stack_size": 1, "base_price": 20, "item_type": 40, "durability": 0 },
+    { "id": "cube_4", "name": "Puzzle", "sprite": "rubiks_cube_4", "footprint": [1, 1], "rarity": 1, "stack_size": 1, "base_price": 20, "item_type": 40, "durability": 0 },
+    { "id": "cube_5", "name": "Puzzle", "sprite": "rubiks_cube_5", "footprint": [1, 1], "rarity": 1, "stack_size": 1, "base_price": 20, "item_type": 40, "durability": 0 },
+    { "id": "decoder_1", "name": "Decoder", "sprite": "decoder_1", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 2500, "item_type": 32, "durability": 0 },
+    { "id": "decoder_2", "name": "Decoder", "sprite": "decoder_2", "footprint": [2, 1], "rarity": 4, "stack_size": 10, "base_price": 12500, "item_type": 32, "durability": 0 },
+    { "id": "decoder_3", "name": "Decoder", "sprite": "decoder_3", "footprint": [2, 1], "rarity": 5, "stack_size": 10, "base_price": 100000, "item_type": 32, "durability": 0 },
+    { "id": "defense_module_1", "name": "Electronic Fuse", "sprite": "defense_module_1", "footprint": [1, 2], "rarity": 2, "stack_size": 1, "base_price": 20000, "item_type": 30, "durability": 0 },
+    { "id": "defense_module_2", "name": "Electronic Fuse", "sprite": "defense_module_1", "footprint": [1, 2], "rarity": 4, "stack_size": 1, "base_price": 100000, "item_type": 30, "durability": 0 },
+    { "id": "defense_module_3", "name": "Electronic Fuse", "sprite": "defense_module_1", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 250000, "item_type": 30, "durability": 0 },
+    { "id": "deposit_box_1_cumulative", "name": "Deposit Box Keys", "sprite": "deposit_box_1_cumulative", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 100000, "item_type": 29, "durability": 0 },
+    { "id": "deposit_box_1_full", "name": "Deposit Box Keys", "sprite": "deposit_box_1_full", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 200000, "item_type": 8, "durability": 0 },
+    { "id": "dildo_1", "name": "Exotic Tool", "sprite": "dildo_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 99940, "item_type": 12, "durability": 0 },
+    { "id": "dp9_m1", "name": "DP-9 Mk1", "sprite": "dp9_m1", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 300, "item_type": 6, "durability": 3 },
+    { "id": "dp9_m2", "name": "DP-9 Mk2", "sprite": "dp9_m2", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 300, "item_type": 6, "durability": 3 },
+    { "id": "drill_1", "name": "Drill", "sprite": "drill_1", "footprint": [3, 2], "rarity": 5, "stack_size": 1, "base_price": 82000, "item_type": 12, "durability": 0 },
+    { "id": "drm14_m1", "name": "DRM-14 Mk1", "sprite": "drm14_m1", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 103500, "item_type": 3, "durability": 3 },
+    { "id": "drm14_m2", "name": "DRM-14 Mk2", "sprite": "drm14_m2", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 103500, "item_type": 3, "durability": 3 },
+    { "id": "drm14_m3", "name": "DRM-14 Mk3", "sprite": "drm14_m3", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 103500, "item_type": 3, "durability": 3 },
+    { "id": "drugs_1", "name": "Powder", "sprite": "drugs_1", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 10130, "item_type": 12, "durability": 0 },
+    { "id": "drugs_2", "name": "Loose Leaves", "sprite": "Drugs_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 565, "item_type": 12, "durability": 0 },
+    { "id": "drugs_3", "name": "Vitamin E", "sprite": "Drugs_3", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 775, "item_type": 12, "durability": 0 },
+    { "id": "drugs_4", "name": "Sugar", "sprite": "Drugs_4", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 710, "item_type": 12, "durability": 0 },
+    { "id": "drugs_5", "name": "Chewing Gum", "sprite": "Drugs_5", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 7910, "item_type": 12, "durability": 0 },
+    { "id": "drugs_6", "name": "Candy", "sprite": "Drugs_6", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 58115, "item_type": 12, "durability": 0 },
+    { "id": "drugs_bag_0", "name": "Powder Bag", "sprite": "Cargo_DrugBag_01", "footprint": null, "rarity": 2 },
+    { "id": "drugs_bag_1", "name": "Pure Powder Bag", "sprite": "Cargo_DrugBag_02", "footprint": null, "rarity": 4 },
+    { "id": "drugs_bag_2", "name": "Perfect Powder Bag", "sprite": "Cargo_DrugBag_03", "footprint": null, "rarity": 5 },
+    { "id": "drugs_bricket_1", "name": "Brick", "sprite": "drugs_bricket_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 300, "item_type": 12, "durability": 0 },
+    { "id": "earrings_1", "name": "GUDDI Earrings", "sprite": "earrings_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 690, "item_type": 12, "durability": 0 },
+    { "id": "earrings_2", "name": "AMINA Earrings", "sprite": "earrings_2", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 84600, "item_type": 12, "durability": 0 },
+    { "id": "earrings_3", "name": "SUGI Earrings", "sprite": "earrings_3", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 975, "item_type": 12, "durability": 0 },
+    { "id": "earrings_4", "name": "MAFFI Earrings", "sprite": "earrings_4", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 995, "item_type": 12, "durability": 0 },
+    { "id": "earrings_5", "name": "CHIPARDI Earrings", "sprite": "earrings_5", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 15500, "item_type": 12, "durability": 0 },
+    { "id": "earrings_6", "name": "MEKASSI Earrings", "sprite": "earrings_6", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 14475, "item_type": 12, "durability": 0 },
+    { "id": "egg_faberge_1", "name": "BIG EGG #53", "sprite": "Faberge", "footprint": [2, 2], "rarity": 6, "stack_size": 1, "base_price": 1375000, "item_type": 12, "durability": 0 },
+    { "id": "electronics_box_1", "name": "Electronics", "sprite": "electronics_box_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 125, "item_type": 12, "durability": 0 },
+    { "id": "equip_carbine_1", "name": "Carabiner Set", "sprite": "equip_carbine_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 125, "item_type": 12, "durability": 0 },
+    { "id": "equip_carbine_2", "name": "Steel Carabiner", "sprite": "equip_carbine_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 1025, "item_type": 12, "durability": 0 },
+    { "id": "equip_carbine_3", "name": "Reinforced Carabiner", "sprite": "equip_carbine_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 10950, "item_type": 12, "durability": 0 },
+    { "id": "equip_carbine_4", "name": "Tactical Carabiner", "sprite": "equip_carbine_4", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 58000, "item_type": 12, "durability": 0 },
+    { "id": "equipment_1", "name": "Laser Rangefinder", "sprite": "equipment_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 1075, "item_type": 12, "durability": 0 },
+    { "id": "equipment_10", "name": "Premium Multitool", "sprite": "equipment_10", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 6600, "item_type": 12, "durability": 0 },
+    { "id": "equipment_11", "name": "Collectible Multitool", "sprite": "equipment_11", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 76000, "item_type": 12, "durability": 0 },
+    { "id": "equipment_12", "name": "Portable EW System", "sprite": "equipment_12", "footprint": [2, 2], "rarity": 6, "stack_size": 1, "base_price": 510650, "item_type": 12, "durability": 0 },
+    { "id": "equipment_2", "name": "Binoculars", "sprite": "equipment_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 1175, "item_type": 12, "durability": 0 },
+    { "id": "equipment_3", "name": "Thermal Imager", "sprite": "equipment_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8400, "item_type": 12, "durability": 0 },
+    { "id": "equipment_4", "name": "Field Ration", "sprite": "equipment_4", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1790, "item_type": 12, "durability": 0 },
+    { "id": "equipment_5", "name": "Powerful Flashlight", "sprite": "equipment_5", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 10040, "item_type": 12, "durability": 0 },
+    { "id": "equipment_6", "name": "K9 Body Armor", "sprite": "equipment_6", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 130390, "item_type": 12, "durability": 0 },
+    { "id": "equipment_7", "name": "Modern Tactical Binoculars", "sprite": "equipment_7", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 66275, "item_type": 12, "durability": 0 },
+    { "id": "equipment_8", "name": "Tactical Binoculars", "sprite": "equipment_8", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8850, "item_type": 12, "durability": 0 },
+    { "id": "equipment_9", "name": "Tactical Multitool", "sprite": "equipment_9", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 1600, "item_type": 12, "durability": 0 },
+    { "id": "evict_plot_1", "name": "Eviction Right", "sprite": "evict_plot_1", "footprint": [2, 2], "rarity": 6, "stack_size": 1, "base_price": 10000, "item_type": 12, "durability": 0 },
+    { "id": "fan_1", "name": "Fan", "sprite": "fan_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 25000, "item_type": 37, "durability": 0 },
+    { "id": "figurine_1", "name": "Fragile Figurine", "sprite": "porcelain_figurine", "footprint": [1, 2], "rarity": 2, "stack_size": 1, "base_price": 200, "item_type": 40, "durability": 0 },
+    { "id": "first_aid_cabinet_1", "name": "First Aid Cabinet", "sprite": "first_aid_cabinet_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 22, "durability": 0 },
+    { "id": "flash_grenade_1", "name": "Flash Grenade", "sprite": "flash_grenade_1", "footprint": [1, 1], "rarity": 4, "stack_size": 5, "base_price": 4000, "item_type": 16, "durability": 0 },
+    { "id": "fluffy_cuffs_1", "name": "Fluffy Handcuffs", "sprite": "fluffy_cuffs_1", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 14440, "item_type": 12, "durability": 0 },
+    { "id": "frag_grenade_1", "name": "Frag Grenade", "sprite": "frag_grenade_1", "footprint": [1, 1], "rarity": 5, "stack_size": 5, "base_price": 14960, "item_type": 16, "durability": 0 },
+    { "id": "fukurou_tensa", "name": "Fukurou Tensa", "sprite": "fukurou_tensa", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 200000, "item_type": 17, "durability": 0 },
+    { "id": "garbage_1", "name": "Trash", "sprite": "garbage_1", "footprint": [2, 1], "rarity": 1, "stack_size": 50, "base_price": 25, "item_type": 12, "durability": 0 },
+    { "id": "garbage_2", "name": "Broken Camera", "sprite": "garbage_2", "footprint": [1, 1], "rarity": 1, "stack_size": 5, "base_price": 120, "item_type": 12, "durability": 0 },
+    { "id": "garbage_3", "name": "Broken Laptop", "sprite": "garbage_3", "footprint": [2, 1], "rarity": 1, "stack_size": 1, "base_price": 210, "item_type": 12, "durability": 0 },
+    { "id": "garbage_4", "name": "Broken Toaster", "sprite": "garbage_4", "footprint": [2, 2], "rarity": 1, "stack_size": 1, "base_price": 300, "item_type": 12, "durability": 0 },
+    { "id": "gas_grenade_1", "name": "Gas Grenade", "sprite": "gas_grenade_1", "footprint": [1, 1], "rarity": 5, "stack_size": 5, "base_price": 75460, "item_type": 16, "durability": 0 },
+    { "id": "gemstone_1", "name": "Diamond in Case", "sprite": "Gemstone_1", "footprint": [1, 1], "rarity": 6, "stack_size": 1, "base_price": 500000, "item_type": 12, "durability": 0 },
+    { "id": "gemstone_2", "name": "Topaz in Case", "sprite": "Gemstone_2", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 52000, "item_type": 12, "durability": 0 },
+    { "id": "gemstone_3", "name": "Ruby in Case", "sprite": "Gemstone_3", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 50000, "item_type": 12, "durability": 0 },
+    { "id": "gemstone_4", "name": "Emerald in Case", "sprite": "Gemstone_4", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 45000, "item_type": 12, "durability": 0 },
+    { "id": "gemstone_5", "name": "Amethyst in Case", "sprite": "Gemstone_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 47000, "item_type": 12, "durability": 0 },
+    { "id": "glass_cutter_1", "name": "Glass Cutter", "sprite": "glass_cutter_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 50000, "item_type": 12, "durability": 0 },
+    { "id": "gold_bar_1", "name": "Gold Bar", "sprite": "gold_bar_1", "footprint": [2, 1], "rarity": 5, "stack_size": 5, "base_price": 130000, "item_type": 12, "durability": 0 },
+    { "id": "graphics_card_1", "name": "HD X900 Graphics Card", "sprite": "Graphics_Card_1", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1475, "item_type": 12, "durability": 0 },
+    { "id": "graphics_card_2", "name": "RG 7700 Graphics Card", "sprite": "Graphics_Card_2", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 17775, "item_type": 12, "durability": 0 },
+    { "id": "grenade_launcher_shell_1", "name": "Grenade Launcher Shell", "sprite": "grenade_launcher_shell_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 260000, "item_type": 12, "durability": 0 },
+    { "id": "gun_grease_1", "name": "Gun Grease", "sprite": "gun_grease_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 925, "item_type": 12, "durability": 0 },
+    { "id": "gun_grease_2", "name": "Professional Gun Grease", "sprite": "gun_grease_2", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8970, "item_type": 12, "durability": 0 },
+    { "id": "gun_grease_3", "name": "Synthetic Gun Grease", "sprite": "gun_grease_3", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 66110, "item_type": 12, "durability": 0 },
+    { "id": "gunpowder_1", "name": "Basic Gunpowder Kit", "sprite": "gunpowder_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 825, "item_type": 12, "durability": 0 },
+    { "id": "gunpowder_2", "name": "Standard Gunpowder Kit", "sprite": "gunpowder_2", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 9000, "item_type": 12, "durability": 0 },
+    { "id": "gunpowder_3", "name": "Refined Gunpowder Kit", "sprite": "gunpowder_3", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 50000, "item_type": 12, "durability": 0 },
+    { "id": "hairdryer_1", "name": "SuperDryer Hairdryer", "sprite": "hairdryer_1", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 9250, "item_type": 12, "durability": 0 },
+    { "id": "hard_crystal_1", "name": "Hard Crystals", "sprite": "cargo_solid_crystals_1", "footprint": null, "rarity": 2 },
+    { "id": "hard_crystal_2", "name": "Hard Crystals", "sprite": "cargo_solid_crystals_2", "footprint": null, "rarity": 4 },
+    { "id": "hard_crystal_3", "name": "Hard Crystals", "sprite": "cargo_solid_crystals_3", "footprint": null, "rarity": 5 },
+    { "id": "harris500_m1", "name": "Harris 500 Mk1", "sprite": "harris500_m1", "footprint": [4, 1], "rarity": 2, "stack_size": 1, "base_price": 3500, "item_type": 13, "durability": 3 },
+    { "id": "harris500_m2", "name": "Harris 500 Mk2", "sprite": "harris500_m2", "footprint": [4, 1], "rarity": 2, "stack_size": 1, "base_price": 3500, "item_type": 13, "durability": 3 },
+    { "id": "harris500_m3", "name": "Harris 500 Mk3", "sprite": "harris500_m3", "footprint": [4, 1], "rarity": 2, "stack_size": 1, "base_price": 3500, "item_type": 13, "durability": 3 },
+    { "id": "headphones_1", "name": "AIRHEADS Headphones", "sprite": "Headphones_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 575, "item_type": 12, "durability": 0 },
+    { "id": "headphones_2", "name": "MS MIC Headphones", "sprite": "Headphones_2", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 865, "item_type": 12, "durability": 0 },
+    { "id": "headphones_3", "name": "DS MAX Headphones", "sprite": "Headphones_3", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 17290, "item_type": 12, "durability": 0 },
+    { "id": "headphones_4", "name": "OMEGA Headphones", "sprite": "Headphones_4", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 15660, "item_type": 12, "durability": 0 },
+    { "id": "headphones_5", "name": "Beat Head Headphones", "sprite": "Headphones_5", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 86790, "item_type": 12, "durability": 0 },
+    { "id": "helicopter_garage_1", "name": "Helipad", "sprite": "helicopter_garage_1", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 500000, "item_type": 21, "durability": 0 },
+    { "id": "home_1", "name": "Trailer", "sprite": "home_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 10000, "item_type": 19, "durability": 0 },
+    { "id": "home_2", "name": "Small House", "sprite": "home_2", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 600000, "item_type": 19, "durability": 0 },
+    { "id": "home_3", "name": "Mansion", "sprite": "home_3", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 1500000, "item_type": 19, "durability": 0 },
+    { "id": "injector_1", "name": "Injector", "sprite": "injector_1", "footprint": [1, 1], "rarity": 4, "stack_size": 5, "base_price": 2000, "item_type": 11, "durability": 0 },
+    { "id": "injector_2", "name": "Injector", "sprite": "injector_2", "footprint": [1, 1], "rarity": 5, "stack_size": 5, "base_price": 6000, "item_type": 11, "durability": 0 },
+    { "id": "jewelry_pouch_1", "name": "Costume Jewelry", "sprite": "jewelry_pouch_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 375, "item_type": 12, "durability": 0 },
+    { "id": "journal_1", "name": "VERSIA Magazine", "sprite": "Journal_1", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1090, "item_type": 12, "durability": 0 },
+    { "id": "journal_2", "name": "AURORA MODE Magazine", "sprite": "Journal_2", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 1025, "item_type": 12, "durability": 0 },
+    { "id": "journal_3", "name": "MONOLITH Magazine", "sprite": "Journal_3", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 14890, "item_type": 12, "durability": 0 },
+    { "id": "journal_4", "name": "VELVET RIOT Magazine", "sprite": "Journal_4", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 11915, "item_type": 12, "durability": 0 },
+    { "id": "journal_5", "name": "OPALINE Magazine", "sprite": "Journal_5", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 80565, "item_type": 12, "durability": 0 },
+    { "id": "jp7_m1", "name": "JP-7 Mk1", "sprite": "jp7_m1", "footprint": [3, 2], "rarity": 4, "stack_size": 1, "base_price": 29000, "item_type": 14, "durability": 3 },
+    { "id": "jp7_m2", "name": "JP-7 Mk2", "sprite": "jp7_m2", "footprint": [3, 2], "rarity": 4, "stack_size": 1, "base_price": 29000, "item_type": 14, "durability": 3 },
+    { "id": "jp7_m3", "name": "JP-7 Mk3", "sprite": "jp7_m3", "footprint": [3, 2], "rarity": 4, "stack_size": 1, "base_price": 29000, "item_type": 14, "durability": 3 },
+    { "id": "kl545_m1", "name": "KL-545 Mk1", "sprite": "kl545_m1", "footprint": [4, 2], "rarity": 2, "stack_size": 1, "base_price": 6000, "item_type": 3, "durability": 3 },
+    { "id": "kl545_m2", "name": "KL-545 Mk2", "sprite": "kl545_m2", "footprint": [4, 2], "rarity": 2, "stack_size": 1, "base_price": 6000, "item_type": 3, "durability": 3 },
+    { "id": "kl545_m3", "name": "KL-545 Mk3", "sprite": "kl545_m3", "footprint": [4, 2], "rarity": 2, "stack_size": 1, "base_price": 6000, "item_type": 3, "durability": 3 },
+    { "id": "lab_crystal_1", "name": "Crystalline Powder", "sprite": "drugs_crystals_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 2500, "item_type": 12, "durability": 0 },
+    { "id": "lab_crystal_2", "name": "Crystalline Powder", "sprite": "drugs_crystals_2", "footprint": [1, 1], "rarity": 4, "stack_size": 10, "base_price": 5000, "item_type": 12, "durability": 0 },
+    { "id": "lab_crystal_3", "name": "Crystalline Powder", "sprite": "drugs_crystals_3", "footprint": [1, 1], "rarity": 5, "stack_size": 10, "base_price": 10000, "item_type": 12, "durability": 0 },
+    { "id": "laptop_1", "name": "AIR-P Laptop", "sprite": "Laptop_1", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 950, "item_type": 12, "durability": 0 },
+    { "id": "laptop_2", "name": "UTAB Laptop", "sprite": "Laptop_2", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 950, "item_type": 12, "durability": 0 },
+    { "id": "laptop_3", "name": "HUBRID Laptop", "sprite": "Laptop_3", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 16090, "item_type": 12, "durability": 0 },
+    { "id": "laptop_4", "name": "PD STATION Laptop", "sprite": "Laptop_4", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 73890, "item_type": 12, "durability": 0 },
+    { "id": "laptop_5", "name": "MSR PRO Laptop", "sprite": "Laptop_5", "footprint": [2, 1], "rarity": 6, "stack_size": 1, "base_price": 510640, "item_type": 12, "durability": 0 },
+    { "id": "laptop_6", "name": "SUS VILO Laptop", "sprite": "Laptop_6", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 17240, "item_type": 12, "durability": 0 },
+    { "id": "lbr44_m1", "name": "LBR-44 Mk1", "sprite": "lbr44_m1", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 20000, "item_type": 6, "durability": 3 },
+    { "id": "lbr44_m2", "name": "LBR-44 Mk2", "sprite": "lbr44_m2", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 20000, "item_type": 6, "durability": 3 },
+    { "id": "lighter_1", "name": "Snap-Snap Lighter", "sprite": "Lighter_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 590, "item_type": 12, "durability": 0 },
+    { "id": "lighter_2", "name": "Lerrou Lighter", "sprite": "Lighter_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 500, "item_type": 12, "durability": 0 },
+    { "id": "lighter_3", "name": "RedOlive Lighter", "sprite": "Lighter_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 7440, "item_type": 12, "durability": 0 },
+    { "id": "lighter_4", "name": "Clipper Lighter", "sprite": "Lighter_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 7940, "item_type": 12, "durability": 0 },
+    { "id": "lighter_5", "name": "SkyDragon Lighter", "sprite": "Lighter_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 52050, "item_type": 12, "durability": 0 },
+    { "id": "lmg_m2", "name": "LM 249 Mk2", "sprite": "m249_m2", "footprint": [4, 2], "rarity": 6, "stack_size": 1, "base_price": 209600, "item_type": 3, "durability": 3 },
+    { "id": "location_alarm_1", "name": "Alarm System", "sprite": "location_alarm_1", "footprint": [1, 2], "rarity": 2, "stack_size": 1, "base_price": 30000, "item_type": 31, "durability": 0 },
+    { "id": "lockpick_1", "name": "Lockpick", "sprite": "lockpick_1", "footprint": [1, 1], "rarity": 2, "stack_size": 20, "base_price": 99, "item_type": 9, "durability": 0 },
+    { "id": "longhorn_titan", "name": "Longhorn Titan", "sprite": "longhorn_titan", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 900000, "item_type": 17, "durability": 0 },
+    { "id": "longhorn_van", "name": "Longhorn Van", "sprite": "longhorn_van", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 180000, "item_type": 17, "durability": 0 },
+    { "id": "longhorn_wild", "name": "Longhorn Wild", "sprite": "longhorn_wild", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 4500000, "item_type": 17, "durability": 0 },
+    { "id": "lottery_ticket_1", "name": "Lottery Ticket", "sprite": "lottery_ticket_1", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 100, "item_type": 40, "durability": 0 },
+    { "id": "lottery_ticket_high_1", "name": "Lottery Ticket", "sprite": "lottery_ticket_2", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 250000, "item_type": 12, "durability": 0 },
+    { "id": "lottery_ticket_jackpot_1", "name": "Lottery Ticket", "sprite": "lottery_ticket_2", "footprint": [1, 1], "rarity": 6, "stack_size": 1, "base_price": 1000000, "item_type": 12, "durability": 0 },
+    { "id": "lottery_ticket_low_1", "name": "Lottery Ticket", "sprite": "lottery_ticket_2", "footprint": [1, 1], "rarity": 1, "stack_size": 1, "base_price": 1, "item_type": 12, "durability": 0 },
+    { "id": "lottery_ticket_medium_1", "name": "Lottery Ticket", "sprite": "lottery_ticket_2", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 10000, "item_type": 12, "durability": 0 },
+    { "id": "mc10_m1", "name": "MC-10 Mk1", "sprite": "mc10_m1", "footprint": [3, 2], "rarity": 2, "stack_size": 1, "base_price": 3500, "item_type": 14, "durability": 3 },
+    { "id": "mc10_m2", "name": "MC-10 Mk2", "sprite": "mc10_m2", "footprint": [3, 2], "rarity": 2, "stack_size": 1, "base_price": 3500, "item_type": 14, "durability": 3 },
+    { "id": "mc10_m3", "name": "MC-10 Mk3", "sprite": "mc10_m3", "footprint": [3, 2], "rarity": 2, "stack_size": 1, "base_price": 3500, "item_type": 14, "durability": 3 },
+    { "id": "meth_lab_1", "name": "Chemical Laboratory", "sprite": "cargo_charge_workbench_garden_bed", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 110000, "item_type": 21, "durability": 0 },
+    { "id": "mini_drill_1", "name": "Mini Drill", "sprite": "mini_drill_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 18000, "item_type": 12, "durability": 0 },
+    { "id": "money_workbench_speedup_1", "name": "Banknote Counter", "sprite": "money_workbench_speedup_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 30000, "item_type": 27, "durability": 0 },
+    { "id": "money_workbench_speedup_2", "name": "Banknote Counter", "sprite": "money_workbench_speedup_2", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 65000, "item_type": 27, "durability": 0 },
+    { "id": "money_workbench_speedup_3", "name": "Banknote Counter", "sprite": "money_workbench_speedup_3", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 150000, "item_type": 27, "durability": 0 },
+    { "id": "mp_ammo_1", "name": "SMG Ammo", "sprite": "mp_ammo_1", "footprint": [1, 1], "rarity": 1, "stack_size": 360, "base_price": 5, "item_type": 0, "durability": 0 },
+    { "id": "narco_farm_1", "name": "Grow Room", "sprite": "meth_lab_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 100000, "item_type": 21, "durability": 0 },
+    { "id": "necklace_1", "name": "ALON GIA Necklace", "sprite": "Necklace_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 1055, "item_type": 12, "durability": 0 },
+    { "id": "necklace_2", "name": "GUDDI Necklace", "sprite": "Necklace_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 855, "item_type": 12, "durability": 0 },
+    { "id": "necklace_3", "name": "MAFFI Necklace", "sprite": "Necklace_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 11550, "item_type": 12, "durability": 0 },
+    { "id": "necklace_4", "name": "REFIER Necklace", "sprite": "Necklace_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 12950, "item_type": 12, "durability": 0 },
+    { "id": "necklace_5", "name": "CHIPARDI Necklace", "sprite": "Necklace_5", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 765, "item_type": 12, "durability": 0 },
+    { "id": "necklace_6", "name": "PENARAI Necklace", "sprite": "Necklace_6", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 75335, "item_type": 12, "durability": 0 },
+    { "id": "ordr12_m1", "name": "ORDR-12 Mk1", "sprite": "ordr12_m1", "footprint": [4, 1], "rarity": 4, "stack_size": 1, "base_price": 28000, "item_type": 13, "durability": 3 },
+    { "id": "ordr12_m2", "name": "ORDR-12 Mk2", "sprite": "ordr12_m2", "footprint": [4, 1], "rarity": 4, "stack_size": 1, "base_price": 28000, "item_type": 13, "durability": 3 },
+    { "id": "ordr12_m3", "name": "ORDR-12 Mk3", "sprite": "ordr12_m3", "footprint": [4, 1], "rarity": 4, "stack_size": 1, "base_price": 28000, "item_type": 13, "durability": 3 },
+    { "id": "package_1", "name": "Parcel", "sprite": "package", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 600, "item_type": 40, "durability": 0 },
+    { "id": "painkiller_1", "name": "Painkillers", "sprite": "painkiller_1", "footprint": [1, 1], "rarity": 2, "stack_size": 5, "base_price": 500, "item_type": 11, "durability": 0 },
+    { "id": "painkiller_2", "name": "Painkillers", "sprite": "painkiller_2", "footprint": [1, 1], "rarity": 4, "stack_size": 5, "base_price": 1600, "item_type": 11, "durability": 0 },
+    { "id": "pdw90_m1", "name": "PDW90 Mk1", "sprite": "pdw90_m1", "footprint": [3, 2], "rarity": 4, "stack_size": 1, "base_price": 30800, "item_type": 14, "durability": 3 },
+    { "id": "pdw90_m2", "name": "PDW90 Mk2", "sprite": "pdw90_m2", "footprint": [3, 2], "rarity": 4, "stack_size": 1, "base_price": 30800, "item_type": 14, "durability": 3 },
+    { "id": "pdw90_m3", "name": "PDW90 Mk3", "sprite": "pdw90_m3", "footprint": [3, 2], "rarity": 4, "stack_size": 1, "base_price": 30800, "item_type": 14, "durability": 3 },
+    { "id": "perfume_1", "name": "INFINITY Perfume", "sprite": "Perfume_1", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 5890, "item_type": 12, "durability": 0 },
+    { "id": "perfume_2", "name": "FLERS Perfume", "sprite": "Perfume_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 525, "item_type": 12, "durability": 0 },
+    { "id": "perfume_3", "name": "TRIO Perfume", "sprite": "Perfume_3", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 500, "item_type": 12, "durability": 0 },
+    { "id": "perfume_4", "name": "LACROCAS Perfume", "sprite": "Perfume_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8290, "item_type": 12, "durability": 0 },
+    { "id": "perfume_5", "name": "DUCHEE Perfume", "sprite": "Perfume_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 50565, "item_type": 12, "durability": 0 },
+    { "id": "personal_alarm_1", "name": "Alarm System", "sprite": "personal_alarm_1", "footprint": [1, 2], "rarity": 4, "stack_size": 1, "base_price": 60000, "item_type": 31, "durability": 0 },
+    { "id": "pharma_pack_1", "name": "Medications", "sprite": "pharma_pack_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 125, "item_type": 12, "durability": 0 },
+    { "id": "pharma_tools_1", "name": "Thermometer", "sprite": "pharma_tools_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 615, "item_type": 12, "durability": 0 },
+    { "id": "pharma_tools_2", "name": "Microscope", "sprite": "pharma_tools_2", "footprint": [1, 2], "rarity": 6, "stack_size": 1, "base_price": 486550, "item_type": 12, "durability": 0 },
+    { "id": "pharma_tools_3", "name": "Glucometer", "sprite": "pharma_tools_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 9540, "item_type": 12, "durability": 0 },
+    { "id": "pharma_tools_4", "name": "Blood Pressure Monitor", "sprite": "pharma_tools_4", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 12940, "item_type": 12, "durability": 0 },
+    { "id": "pharma_tools_5", "name": "Dental Loupes", "sprite": "pharma_tools_5", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 76550, "item_type": 12, "durability": 0 },
+    { "id": "pharma_tools_6", "name": "Ophthalmoscope", "sprite": "pharma_tools_6", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 515, "item_type": 12, "durability": 0 },
+    { "id": "phone_1", "name": "G-FLOW Smartphone", "sprite": "Phone_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 390, "item_type": 12, "durability": 0 },
+    { "id": "phone_2", "name": "D-MAX Smartphone", "sprite": "Phone_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 475, "item_type": 12, "durability": 0 },
+    { "id": "phone_3", "name": "P-Verse Smartphone", "sprite": "Phone_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8715, "item_type": 12, "durability": 0 },
+    { "id": "phone_4", "name": "Flip Ring Smartphone", "sprite": "Phone_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 6740, "item_type": 12, "durability": 0 },
+    { "id": "phone_5", "name": "Tuver Phone", "sprite": "Phone_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 53475, "item_type": 12, "durability": 0 },
+    { "id": "picture_fake_1", "name": "Painting", "sprite": "picture_tube_1", "footprint": [1, 2], "rarity": 1, "stack_size": 20, "base_price": 200, "item_type": 12, "durability": 0 },
+    { "id": "picture_tube_1", "name": "Painting", "sprite": "picture_tube_1", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 900, "item_type": 12, "durability": 0 },
+    { "id": "picture_tube_2", "name": "Painting", "sprite": "picture_tube_1", "footprint": [1, 2], "rarity": 4, "stack_size": 5, "base_price": 6600, "item_type": 12, "durability": 0 },
+    { "id": "picture_tube_3", "name": "Painting", "sprite": "picture_tube_1", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 54840, "item_type": 12, "durability": 0 },
+    { "id": "pistol_ammo_1", "name": "Pistol Ammo", "sprite": "pistol_ammo_1", "footprint": [1, 1], "rarity": 1, "stack_size": 60, "base_price": 2, "item_type": 0, "durability": 0 },
+    { "id": "plot_sale_1", "name": "Land Plot Title", "sprite": "plot_sale_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 100000, "item_type": 33, "durability": 0 },
+    { "id": "plot_sale_2", "name": "Land Plot Title", "sprite": "plot_sale_2", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 800000, "item_type": 33, "durability": 0 },
+    { "id": "plot_sale_3", "name": "Land Plot Title", "sprite": "plot_sale_3", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 2000000, "item_type": 33, "durability": 0 },
+    { "id": "poker_cards_1", "name": "Poker Powerplay Deck", "sprite": "Poker_Cards_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 425, "item_type": 12, "durability": 0 },
+    { "id": "poker_cards_2", "name": "Mystic Card Chronicles Deck", "sprite": "Poker_Cards_2", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 6675, "item_type": 12, "durability": 0 },
+    { "id": "poker_cards_3", "name": "Ace's Dominion Deck", "sprite": "Poker_Cards_3", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 590, "item_type": 12, "durability": 0 },
+    { "id": "poker_cards_4", "name": "Bad Habit Deck", "sprite": "Poker_Cards_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 7890, "item_type": 12, "durability": 0 },
+    { "id": "poker_cards_5", "name": "Joker's Choice Deck", "sprite": "Poker_Cards_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 56390, "item_type": 12, "durability": 0 },
+    { "id": "police_badge_1", "name": "Sergeant's Badge", "sprite": "cop_reward_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 8000, "item_type": 34, "durability": 0 },
+    { "id": "police_badge_2", "name": "Lieutenant's Badge", "sprite": "cop_reward_1", "footprint": [1, 1], "rarity": 4, "stack_size": 5, "base_price": 40000, "item_type": 34, "durability": 0 },
+    { "id": "police_badge_3", "name": "Captain's Badge", "sprite": "cop_reward_3", "footprint": [1, 1], "rarity": 5, "stack_size": 3, "base_price": 100000, "item_type": 34, "durability": 0 },
+    { "id": "police_evidence_1", "name": "Evidence", "sprite": "police_evidence_1", "footprint": [2, 1], "rarity": 4, "stack_size": 10, "base_price": 10000, "item_type": 12, "durability": 0 },
+    { "id": "police_radio_1", "name": "Police Radio", "sprite": "police_radio_1", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 10000, "item_type": 10, "durability": 0 },
+    { "id": "rc556_m1", "name": "RC 5.56 Mk1", "sprite": "rc556_m1", "footprint": [4, 2], "rarity": 4, "stack_size": 1, "base_price": 32000, "item_type": 3, "durability": 3 },
+    { "id": "rc556_m2", "name": "RC 5.56 Mk2", "sprite": "rc556_m2", "footprint": [4, 2], "rarity": 4, "stack_size": 1, "base_price": 32000, "item_type": 3, "durability": 3 },
+    { "id": "rc556_m3", "name": "RC 5.56 Mk3", "sprite": "rc556_m3", "footprint": [4, 2], "rarity": 4, "stack_size": 1, "base_price": 32000, "item_type": 3, "durability": 3 },
+    { "id": "reagents_1", "name": "Reagent Canisters", "sprite": "Cargo_Reagents_01", "footprint": null, "rarity": 2 },
+    { "id": "reagents_2", "name": "Quality Reagents", "sprite": "Cargo_Reagents_02", "footprint": null, "rarity": 4 },
+    { "id": "rifle_ammo_1", "name": "Assault Rifle Ammo", "sprite": "rifle_ammo_1", "footprint": [1, 1], "rarity": 1, "stack_size": 360, "base_price": 6, "item_type": 0, "durability": 0 },
+    { "id": "ring_1", "name": "ALON GIA Ring", "sprite": "ring_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 645, "item_type": 12, "durability": 0 },
+    { "id": "ring_2", "name": "AMINA Ring", "sprite": "ring_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 860, "item_type": 12, "durability": 0 },
+    { "id": "ring_3", "name": "GUDDI Ring", "sprite": "ring_3", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 12070, "item_type": 12, "durability": 0 },
+    { "id": "ring_4", "name": "SUGI Ring", "sprite": "ring_4", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 995, "item_type": 12, "durability": 0 },
+    { "id": "ring_5", "name": "MAFFI Ring", "sprite": "ring_5", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 12695, "item_type": 12, "durability": 0 },
+    { "id": "ring_6", "name": "PRIDE Ring", "sprite": "ring_6", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 87190, "item_type": 12, "durability": 0 },
+    { "id": "ring_7", "name": "WISH Ring", "sprite": "ring_7", "footprint": [1, 1], "rarity": 6, "stack_size": 1, "base_price": 801540, "item_type": 12, "durability": 0 },
+    { "id": "romanov_r8", "name": "Romanov R8", "sprite": "romanov_r8", "footprint": [2, 2], "rarity": 6, "stack_size": 1, "base_price": 10000000, "item_type": 18, "durability": 0 },
+    { "id": "room_key_1", "name": "Room Key", "sprite": "room_key_1", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 22500, "item_type": 8, "durability": 0 },
+    { "id": "room_key_10", "name": "Room Key", "sprite": "room_key_10", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 23500, "item_type": 8, "durability": 0 },
+    { "id": "room_key_11", "name": "Room Key", "sprite": "room_key_11", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 28800, "item_type": 8, "durability": 0 },
+    { "id": "room_key_12", "name": "Room Key", "sprite": "room_key_7", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 23700, "item_type": 8, "durability": 0 },
+    { "id": "room_key_13", "name": "Room Key", "sprite": "vip_key_3", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 25700, "item_type": 8, "durability": 0 },
+    { "id": "room_key_2", "name": "Room Key", "sprite": "room_key_2", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 21000, "item_type": 8, "durability": 0 },
+    { "id": "room_key_3", "name": "Room Key", "sprite": "room_key_13", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 26500, "item_type": 8, "durability": 0 },
+    { "id": "room_key_4", "name": "Room Key", "sprite": "room_key_14", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 22500, "item_type": 8, "durability": 0 },
+    { "id": "room_key_5", "name": "Room Key", "sprite": "room_key_5", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 27000, "item_type": 8, "durability": 0 },
+    { "id": "room_key_6", "name": "Room Key", "sprite": "room_key_6", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 58200, "item_type": 8, "durability": 0 },
+    { "id": "room_key_7", "name": "Room Key", "sprite": "room_key_12", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 23400, "item_type": 8, "durability": 0 },
+    { "id": "room_key_8", "name": "Room Key", "sprite": "room_key_8", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 24500, "item_type": 8, "durability": 0 },
+    { "id": "room_key_9", "name": "Room Key", "sprite": "room_key_9", "footprint": [1, 1], "rarity": 4, "stack_size": 1, "base_price": 25700, "item_type": 8, "durability": 0 },
+    { "id": "roulette_chip_1", "name": "Chips", "sprite": "poker_chip_1", "footprint": [1, 1], "rarity": 1, "stack_size": 100, "base_price": 10, "item_type": 38, "durability": 0 },
+    { "id": "roulette_chip_100", "name": "Chips", "sprite": "poker_chip_5", "footprint": [1, 1], "rarity": 6, "stack_size": 100, "base_price": 10, "item_type": 38, "durability": 0 },
+    { "id": "roulette_chip_25", "name": "Chips", "sprite": "poker_chip_3", "footprint": [1, 1], "rarity": 4, "stack_size": 100, "base_price": 10, "item_type": 38, "durability": 0 },
+    { "id": "roulette_chip_5", "name": "Chips", "sprite": "poker_chip_2", "footprint": [1, 1], "rarity": 2, "stack_size": 100, "base_price": 10, "item_type": 38, "durability": 0 },
+    { "id": "roulette_chip_50", "name": "Chips", "sprite": "poker_chip_4", "footprint": [1, 1], "rarity": 5, "stack_size": 100, "base_price": 10, "item_type": 38, "durability": 0 },
+    { "id": "royal_e", "name": "Royal E", "sprite": "royal_e", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 1000000, "item_type": 17, "durability": 0 },
+    { "id": "royal_j", "name": "Royal J", "sprite": "royal_j", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 4000000, "item_type": 17, "durability": 0 },
+    { "id": "safe_key_1", "name": "Safe Key", "sprite": "safe_key_1", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_10", "name": "Safe Key", "sprite": "safe_key_10", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_11", "name": "Safe Key", "sprite": "safe_key_11", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_12", "name": "Safe Key", "sprite": "safe_key_12", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_13", "name": "Safe Key", "sprite": "safe_key_13", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_14", "name": "Safe Key", "sprite": "safe_key_14", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_2", "name": "Safe Key", "sprite": "safe_key_2", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_3", "name": "Safe Key", "sprite": "safe_key_3", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_4", "name": "Safe Key", "sprite": "safe_key_4", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_5", "name": "Safe Key", "sprite": "safe_key_5", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_6", "name": "Safe Key", "sprite": "safe_key_6", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_7", "name": "Safe Key", "sprite": "safe_key_7", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_8", "name": "Safe Key", "sprite": "safe_key_8", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "safe_key_9", "name": "Safe Key", "sprite": "safe_key_9", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 5000, "item_type": 7, "durability": 0 },
+    { "id": "settlement_sale_1", "name": "Settlement Title", "sprite": "settlement_sale_1__872", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 200000, "item_type": 33, "durability": 0 },
+    { "id": "settlement_sale_2", "name": "Settlement Title", "sprite": "settlement_sale_2", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 2000000, "item_type": 33, "durability": 0 },
+    { "id": "settlement_sale_3", "name": "Settlement Title", "sprite": "settlement_sale_3", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 6000000, "item_type": 33, "durability": 0 },
+    { "id": "shelving_1", "name": "Small Rack", "sprite": "shelving_1", "footprint": [2, 2], "rarity": 1, "stack_size": 1, "base_price": 3500, "item_type": 22, "durability": 0 },
+    { "id": "shelving_2", "name": "Medium Rack", "sprite": "shelving_2", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 26500, "item_type": 22, "durability": 0 },
+    { "id": "shelving_3", "name": "Large Rack", "sprite": "shelving_3", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 46500, "item_type": 22, "durability": 0 },
+    { "id": "shelving_4", "name": "Small Security Cabinet", "sprite": "shelving_4", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 30300, "item_type": 22, "durability": 0 },
+    { "id": "shelving_5", "name": "Medium Security Cabinet", "sprite": "shelving_5", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 70000, "item_type": 22, "durability": 0 },
+    { "id": "shelving_6", "name": "Large Security Cabinet", "sprite": "shelving_6", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 132000, "item_type": 22, "durability": 0 },
+    { "id": "shotgun_ammo_1", "name": "Shotgun Ammo", "sprite": "shotgun_ammo_1", "footprint": [1, 1], "rarity": 1, "stack_size": 60, "base_price": 5, "item_type": 0, "durability": 0 },
+    { "id": "smoke_grenade_1", "name": "Smoke Grenade", "sprite": "smoke_grenade_1", "footprint": [1, 1], "rarity": 4, "stack_size": 5, "base_price": 5040, "item_type": 16, "durability": 0 },
+    { "id": "soft_crystal_1", "name": "Crystalline Concentrate", "sprite": "cargo_liquid_crystals_1", "footprint": null, "rarity": 2 },
+    { "id": "soft_crystal_2", "name": "Crystalline Concentrate", "sprite": "cargo_liquid_crystals_2", "footprint": null, "rarity": 4 },
+    { "id": "soft_crystal_3", "name": "Crystalline Concentrate", "sprite": "cargo_liquid_crystals_3", "footprint": null, "rarity": 5 },
+    { "id": "srreaper_m1", "name": "SR Reaper Mk1", "sprite": "srreaper_m1", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 120000, "item_type": 3, "durability": 3 },
+    { "id": "srreaper_m2", "name": "SR Reaper Mk2", "sprite": "srreaper_m2", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 120000, "item_type": 3, "durability": 3 },
+    { "id": "srreaper_m3", "name": "SR Reaper Mk3", "sprite": "srreaper_m3", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 120000, "item_type": 3, "durability": 3 },
+    { "id": "starh_m1", "name": "STAR-H Mk1", "sprite": "starh_m1", "footprint": [4, 2], "rarity": 4, "stack_size": 1, "base_price": 27500, "item_type": 3, "durability": 3 },
+    { "id": "starh_m2", "name": "STAR-H Mk2", "sprite": "starh_m2", "footprint": [4, 2], "rarity": 4, "stack_size": 1, "base_price": 27500, "item_type": 3, "durability": 3 },
+    { "id": "starh_m3", "name": "STAR-H Mk3", "sprite": "starh_m3", "footprint": [4, 2], "rarity": 4, "stack_size": 1, "base_price": 27500, "item_type": 3, "durability": 3 },
+    { "id": "storage_1", "name": "Small Safe", "sprite": "storage_1", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 32000, "item_type": 22, "durability": 0 },
+    { "id": "storage_2", "name": "Medium Safe", "sprite": "storage_2", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 68000, "item_type": 22, "durability": 0 },
+    { "id": "storage_3", "name": "Large Safe", "sprite": "storage_3", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 127000, "item_type": 22, "durability": 0 },
+    { "id": "storage_4", "name": "Small Nightstand", "sprite": "storage_4", "footprint": [2, 2], "rarity": 1, "stack_size": 1, "base_price": 4000, "item_type": 22, "durability": 0 },
+    { "id": "storage_5", "name": "Medium Nightstand", "sprite": "storage_5", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 29200, "item_type": 22, "durability": 0 },
+    { "id": "storage_6", "name": "Large Nightstand", "sprite": "storage_6", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 45400, "item_type": 22, "durability": 0 },
+    { "id": "storage_building_1", "name": "Warehouse", "sprite": "storage_building_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 100000, "item_type": 21, "durability": 0 },
+    { "id": "storage_lockpick_1", "name": "Master Key", "sprite": "storage_lockpick_1", "footprint": [1, 1], "rarity": 4, "stack_size": 5, "base_price": 55000, "item_type": 9, "durability": 0 },
+    { "id": "suitcase", "name": "White Suitcase", "sprite": "Cargo_Suitcase_01", "footprint": null, "rarity": 2 },
+    { "id": "suitcase_2", "name": "Blue Suitcase", "sprite": "Cargo_Suitcase_02", "footprint": null, "rarity": 2 },
+    { "id": "suitcase_3", "name": "Red Suitcase", "sprite": "Cargo_Suitcase_03", "footprint": null, "rarity": 2 },
+    { "id": "super_bolt_cutter", "name": "Bolt Cutter", "sprite": "bolt_cutter_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 20000, "item_type": 39, "durability": 0 },
+    { "id": "tablet_1_cumulative", "name": "Code Tablet", "sprite": "tablet_1_cumulative", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 20000, "item_type": 29, "durability": 0 },
+    { "id": "tablet_1_full", "name": "Code Tablet", "sprite": "tablet_1_full", "footprint": [2, 1], "rarity": 4, "stack_size": 1, "base_price": 187500, "item_type": 7, "durability": 0 },
+    { "id": "tag12k_m1", "name": "TAG-12K Mk1", "sprite": "tag12k_m1", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 110000, "item_type": 13, "durability": 3 },
+    { "id": "tag12k_m2", "name": "TAG-12K Mk2", "sprite": "tag12k_m2", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 110000, "item_type": 13, "durability": 3 },
+    { "id": "tag12k_m3", "name": "TAG-12K Mk3", "sprite": "tag12k_m3", "footprint": [4, 2], "rarity": 5, "stack_size": 1, "base_price": 110000, "item_type": 13, "durability": 3 },
+    { "id": "toaster_1", "name": "Goodhouse Toaster", "sprite": "toaster_1", "footprint": [2, 2], "rarity": 1, "stack_size": 3, "base_price": 495, "item_type": 12, "durability": 0 },
+    { "id": "toy_1", "name": "CollectiToy #1 Figure", "sprite": "toy_1", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 925, "item_type": 12, "durability": 0 },
+    { "id": "toy_2", "name": "CollectiToy #2 Figure", "sprite": "toy_2", "footprint": [1, 2], "rarity": 2, "stack_size": 10, "base_price": 925, "item_type": 12, "durability": 0 },
+    { "id": "toy_3", "name": "CollectiToy #3 Figure", "sprite": "toy_3", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 12465, "item_type": 12, "durability": 0 },
+    { "id": "toy_4", "name": "CollectiToy #4 Figure", "sprite": "toy_4", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 10490, "item_type": 12, "durability": 0 },
+    { "id": "toy_5", "name": "CollectiToy x TA", "sprite": "toy_5", "footprint": [1, 2], "rarity": 5, "stack_size": 1, "base_price": 84740, "item_type": 12, "durability": 0 },
+    { "id": "usb_1_cumulative", "name": "USB Hacking Tool", "sprite": "usb_1_cumulative", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 50000, "item_type": 29, "durability": 0 },
+    { "id": "usb_1_full", "name": "USB Hacking Tool", "sprite": "usb_1_full", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 500000, "item_type": 12, "durability": 0 },
+    { "id": "uv_lamp_3", "name": "UV Lamp", "sprite": "uv_lamp_1", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 250000, "item_type": 37, "durability": 0 },
+    { "id": "valuable_cargo", "name": "Valuable Cargo", "sprite": "Gun_Box", "footprint": null, "rarity": 5 },
+    { "id": "vest1_m1", "name": "Light Body Armor", "sprite": "Equipment_Vest", "footprint": [2, 2], "rarity": 1, "stack_size": 1, "base_price": 4000, "item_type": 1, "durability": 3 },
+    { "id": "vest2_m1", "name": "Medium Body Armor", "sprite": "Equipment_Vest_2", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 1, "durability": 3 },
+    { "id": "vest3_m1", "name": "Assault Body Armor", "sprite": "Equipment_Vest_3", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 70000, "item_type": 1, "durability": 3 },
+    { "id": "vest4_m1", "name": "Heavy Body Armor", "sprite": "Equipment_Vest_4", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 140000, "item_type": 1, "durability": 3 },
+    { "id": "vest5_m1", "name": "Bastion Body Armor", "sprite": "Equipment_Vest_5", "footprint": [2, 2], "rarity": 6, "stack_size": 1, "base_price": 350000, "item_type": 1, "durability": 3 },
+    { "id": "vial_1", "name": "Vial With Supplements", "sprite": "vial_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 625, "item_type": 12, "durability": 0 },
+    { "id": "vial_2", "name": "Vial With Liquid", "sprite": "vial_2", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8225, "item_type": 12, "durability": 0 },
+    { "id": "vial_3", "name": "Vial With Vaccine", "sprite": "vial_3", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 425, "item_type": 12, "durability": 0 },
+    { "id": "vial_4", "name": "Vial With Rare Medicine", "sprite": "vial_4", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 600, "item_type": 12, "durability": 0 },
+    { "id": "vial_5", "name": "Cosmetic Ampule", "sprite": "vial_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 63040, "item_type": 12, "durability": 0 },
+    { "id": "vial_6", "name": "Medicinal Ampule", "sprite": "vial_6", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 7840, "item_type": 12, "durability": 0 },
+    { "id": "vial_7", "name": "Vial With Illegal Drug", "sprite": "vial_7", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 635, "item_type": 12, "durability": 0 },
+    { "id": "video_card_1", "name": "Warehouse", "sprite": "garbage_3", "footprint": [2, 1], "rarity": 2, "stack_size": 1, "base_price": 10000, "item_type": 35, "durability": 0 },
+    { "id": "vinyl_1", "name": "Platinum Disc", "sprite": "vinyl_1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 92340, "item_type": 12, "durability": 0 },
+    { "id": "vinyl_2", "name": "Golden Disc", "sprite": "vinyl_2", "footprint": [2, 1], "rarity": 6, "stack_size": 1, "base_price": 795450, "item_type": 12, "durability": 0 },
+    { "id": "vip_key_1", "name": "Keycard", "sprite": "vip_key_1", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 56200, "item_type": 8, "durability": 0 },
+    { "id": "vip_key_2", "name": "Keycard", "sprite": "room_key_old3", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 46200, "item_type": 8, "durability": 0 },
+    { "id": "vip_key_3", "name": "Keycard", "sprite": "room_key_old7", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 51000, "item_type": 8, "durability": 0 },
+    { "id": "vip_key_4", "name": "ID Card", "sprite": "vip_key_2", "footprint": [1, 1], "rarity": 6, "stack_size": 1, "base_price": 72000, "item_type": 8, "durability": 0 },
+    { "id": "vip_key_5", "name": "ID Card", "sprite": "vip_key_5", "footprint": [1, 1], "rarity": 6, "stack_size": 1, "base_price": 82000, "item_type": 8, "durability": 0 },
+    { "id": "vip_key_6", "name": "Keycard", "sprite": "vip_key_6", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 43200, "item_type": 8, "durability": 0 },
+    { "id": "vulture50_m1", "name": "Vulture 50 Mk1", "sprite": "valture50_m1", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 50000, "item_type": 6, "durability": 3 },
+    { "id": "vulture50_m2", "name": "Vulture 50 Mk2", "sprite": "valture50_m2", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 50000, "item_type": 6, "durability": 3 },
+    { "id": "wall_1", "name": "Farm Fence", "sprite": "wall_1", "footprint": [2, 2], "rarity": 1, "stack_size": 1, "base_price": 600, "item_type": 20, "durability": 0 },
+    { "id": "wall_2", "name": "Mesh Fence", "sprite": "wall_2", "footprint": [2, 2], "rarity": 2, "stack_size": 1, "base_price": 15000, "item_type": 20, "durability": 0 },
+    { "id": "wall_3", "name": "Metal Fence", "sprite": "wall_3", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 50000, "item_type": 20, "durability": 0 },
+    { "id": "wall_4", "name": "Concrete Fence", "sprite": "wall_4", "footprint": [2, 2], "rarity": 5, "stack_size": 1, "base_price": 500000, "item_type": 20, "durability": 0 },
+    { "id": "wallet_1", "name": "Lost Wallet", "sprite": "wallet", "footprint": [1, 1], "rarity": 2, "stack_size": 1, "base_price": 100, "item_type": 40, "durability": 0 },
+    { "id": "watch_1", "name": "PEGIUET Watch", "sprite": "Watch_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 880, "item_type": 12, "durability": 0 },
+    { "id": "watch_2", "name": "CONSTERAN Watch", "sprite": "Watch_2", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 690, "item_type": 12, "durability": 0 },
+    { "id": "watch_3", "name": "PARDIN Watch", "sprite": "Watch_3", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 915, "item_type": 12, "durability": 0 },
+    { "id": "watch_4", "name": "NURDAN Watch", "sprite": "Watch_4", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 14220, "item_type": 12, "durability": 0 },
+    { "id": "watch_5", "name": "POLEX Watch", "sprite": "Watch_5", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 82105, "item_type": 12, "durability": 0 },
+    { "id": "watch_6", "name": "PENARAI Watch", "sprite": "Watch_6", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 13080, "item_type": 12, "durability": 0 },
+    { "id": "water_pump_2", "name": "Water Pump", "sprite": "water_pump_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 70000, "item_type": 37, "durability": 0 },
+    { "id": "weapon_box_1", "name": "Weapon Parts Box", "sprite": "Gun_Box", "footprint": null, "rarity": 5 },
+    { "id": "weapon_cleaning_1", "name": "Gun Cleaning Kit", "sprite": "weapon_cleaning_1", "footprint": [2, 1], "rarity": 2, "stack_size": 10, "base_price": 925, "item_type": 12, "durability": 0 },
+    { "id": "weapon_cleaning_2", "name": "Professional Gun Cleaning Kit", "sprite": "weapon_cleaning_2", "footprint": [2, 1], "rarity": 4, "stack_size": 3, "base_price": 7375, "item_type": 12, "durability": 0 },
+    { "id": "weapon_cleaning_3", "name": "Tactical Gun Cleaning Kit", "sprite": "weapon_cleaning_3", "footprint": [2, 1], "rarity": 5, "stack_size": 1, "base_price": 87060, "item_type": 12, "durability": 0 },
+    { "id": "weapon_trinket_1", "name": "Gyroscope", "sprite": "weapon_trinket_1", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 1065, "item_type": 12, "durability": 0 },
+    { "id": "weapon_trinket_2", "name": "Ballistic Chronograph", "sprite": "weapon_trinket_2", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 8915, "item_type": 12, "durability": 0 },
+    { "id": "weapon_trinket_3", "name": "Drone Controller", "sprite": "weapon_trinket_3", "footprint": [1, 1], "rarity": 5, "stack_size": 1, "base_price": 62225, "item_type": 12, "durability": 0 },
+    { "id": "weapon_trinket_4", "name": "Modern Compass", "sprite": "weapon_trinket_5", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 1025, "item_type": 12, "durability": 0 },
+    { "id": "weapon_trinket_5", "name": "Tactical Sensor", "sprite": "weapon_trinket_4", "footprint": [1, 1], "rarity": 2, "stack_size": 10, "base_price": 1225, "item_type": 12, "durability": 0 },
+    { "id": "weapon_trinket_6", "name": "Chronograph", "sprite": "weapon_trinket_6", "footprint": [1, 2], "rarity": 4, "stack_size": 3, "base_price": 13225, "item_type": 12, "durability": 0 },
+    { "id": "weapon_trinket_7", "name": "Ballistics Computer", "sprite": "weapon_trinket_7", "footprint": [1, 1], "rarity": 4, "stack_size": 3, "base_price": 9925, "item_type": 12, "durability": 0 },
+    { "id": "weaponparts_box_1", "name": "Weapon Parts", "sprite": "weaponparts_box_1", "footprint": [1, 1], "rarity": 1, "stack_size": 50, "base_price": 125, "item_type": 12, "durability": 0 },
+    { "id": "workshop_building_1", "name": "Workshop", "sprite": "workshop_building_1", "footprint": [2, 2], "rarity": 4, "stack_size": 1, "base_price": 75000, "item_type": 21, "durability": 0 },
+    { "id": "yacht_key_1", "name": "Yacht Key", "sprite": "yacht_key_1", "footprint": [2, 2], "rarity": 6, "stack_size": 1, "base_price": 5000000, "item_type": 12, "durability": 0 }
+  ],
+  "cargo_variants": [
+    { "id": "bush_growing_2", "name": "Growing Bush", "sprite": "marijuana_bush_2", "footprint": null, "rarity": 4 },
+    { "id": "bush_growing_3", "name": "Growing Bush", "sprite": "marijuana_bush_2", "footprint": null, "rarity": 5 },
+    { "id": "bush_mature_2", "name": "Mature Bush", "sprite": "marijuana_bush_3", "footprint": null, "rarity": 4 },
+    { "id": "bush_mature_3", "name": "Mature Bush", "sprite": "marijuana_bush_3", "footprint": null, "rarity": 5 },
+    { "id": "cargo_ammo", "name": "Weapon Parts Box", "sprite": "Gun_Box", "footprint": null, "rarity": 4 },
+    { "id": "cargo_ammo_common", "name": "Weapon Parts Box", "sprite": "Gun_Box", "footprint": null, "rarity": 2 },
+    { "id": "cargo_carparts_common", "name": "Spare Parts Crate", "sprite": "Cargo_Spare_Parts", "footprint": null, "rarity": 2 },
+    { "id": "cargo_electronics_common", "name": "Electronics Crate", "sprite": "Cargo_Electronics", "footprint": null, "rarity": 2 },
+    { "id": "cargo_equip_common", "name": "Equipment Crate", "sprite": "Cargo_MetalBox_01", "footprint": null, "rarity": 2 },
+    { "id": "cargo_jewelry_common", "name": "Jewelry Box", "sprite": "Cargo_Jewelry", "footprint": null, "rarity": 2 },
+    { "id": "cargo_medicine_common", "name": "Medications Crate", "sprite": "Cargo_ Pharmacy", "footprint": null, "rarity": 2 },
+    { "id": "cargo_minimarket_common", "name": "Alcohol Crate", "sprite": "Cargo_Alcohol", "footprint": null, "rarity": 2 }
+  ],
+  "collections": [
+    {
+      "id": "basic_1",
+      "tier": "basic",
+      "items": [
+        { "item": "alcohol_1", "count": 1 },
+        { "item": "alcohol_8", "count": 1 },
+        { "item": "alcohol_4", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "alcohol_box_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "basic_2",
+      "tier": "basic",
+      "items": [
+        { "item": "car_parts_6", "count": 1 },
+        { "item": "car_parts_2", "count": 1 },
+        { "item": "car_parts_4", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "car_spare_parts_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "basic_3",
+      "tier": "basic",
+      "items": [
+        { "item": "equipment_4", "count": 1 },
+        { "item": "equipment_1", "count": 1 },
+        { "item": "equipment_2", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "equip_carbine_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "basic_4",
+      "tier": "basic",
+      "items": [
+        { "item": "weapon_cleaning_1", "count": 1 },
+        { "item": "gun_grease_1", "count": 1 },
+        { "item": "gunpowder_1", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "weaponparts_box_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "basic_5",
+      "tier": "basic",
+      "items": [
+        { "item": "earrings_3", "count": 1 },
+        { "item": "watch_1", "count": 1 },
+        { "item": "necklace_5", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "jewelry_pouch_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "basic_6",
+      "tier": "basic",
+      "items": [
+        { "item": "vial_1", "count": 1 },
+        { "item": "vial_3", "count": 1 },
+        { "item": "pharma_tools_6", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "pharma_pack_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "basic_7",
+      "tier": "basic",
+      "items": [
+        { "item": "laptop_1", "count": 1 },
+        { "item": "phone_1", "count": 1 },
+        { "item": "headphones_1", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "electronics_box_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "additional_1",
+      "tier": "additional",
+      "items": [
+        { "item": "alcohol_7", "count": 1 },
+        { "item": "alcohol_3", "count": 1 },
+        { "item": "alcohol_9", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "alcohol_box_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "additional_2",
+      "tier": "additional",
+      "items": [
+        { "item": "car_device_2", "count": 1 },
+        { "item": "car_device_1", "count": 1 },
+        { "item": "car_trinket_1", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "car_spare_parts_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "additional_3",
+      "tier": "additional",
+      "items": [
+        { "item": "burner_1", "count": 1 },
+        { "item": "lighter_1", "count": 1 },
+        { "item": "equip_carbine_2", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "equip_carbine_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "additional_4",
+      "tier": "additional",
+      "items": [
+        { "item": "weapon_trinket_1", "count": 1 },
+        { "item": "weapon_trinket_4", "count": 1 },
+        { "item": "blade_1", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "weaponparts_box_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "additional_5",
+      "tier": "additional",
+      "items": [
+        { "item": "earrings_4", "count": 1 },
+        { "item": "ring_1", "count": 1 },
+        { "item": "necklace_1", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "jewelry_pouch_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "additional_6",
+      "tier": "additional",
+      "items": [
+        { "item": "pharma_tools_1", "count": 1 },
+        { "item": "vial_7", "count": 1 },
+        { "item": "condoms_1", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "pharma_pack_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "additional_7",
+      "tier": "additional",
+      "items": [
+        { "item": "console_1", "count": 1 },
+        { "item": "headphones_2", "count": 1 },
+        { "item": "phone_2", "count": 1 }
+      ],
+      "bulk_packs": [
+        { "item": "electronics_box_1", "count": 10 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_1",
+      "tier": "special",
+      "items": [
+        { "item": "toy_3", "count": 1 },
+        { "item": "cigar_2", "count": 1 },
+        { "item": "poker_cards_2", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_2",
+      "tier": "special",
+      "items": [
+        { "item": "alcohol_6", "count": 1 },
+        { "item": "watch_6", "count": 1 },
+        { "item": "necklace_4", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_3",
+      "tier": "special",
+      "items": [
+        { "item": "blade_4", "count": 1 },
+        { "item": "gunpowder_2", "count": 1 },
+        { "item": "equip_carbine_3", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_4",
+      "tier": "special",
+      "items": [
+        { "item": "car_parts_5", "count": 1 },
+        { "item": "car_device_3", "count": 1 },
+        { "item": "laptop_3", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_5",
+      "tier": "special",
+      "items": [
+        { "item": "antique_1", "count": 1 },
+        { "item": "vial_2", "count": 1 },
+        { "item": "pharma_tools_3", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_6",
+      "tier": "special",
+      "items": [
+        { "item": "console_3", "count": 1 },
+        { "item": "headphones_3", "count": 1 },
+        { "item": "ring_5", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_7",
+      "tier": "special",
+      "items": [
+        { "item": "comics_3", "count": 1 },
+        { "item": "perfume_4", "count": 1 },
+        { "item": "condoms_3", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_8",
+      "tier": "special",
+      "items": [
+        { "item": "antique_1", "count": 1 },
+        { "item": "car_trinket_3", "count": 1 },
+        { "item": "car_trinket_4", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_9",
+      "tier": "special",
+      "items": [
+        { "item": "alcohol_10", "count": 4 },
+        { "item": "equipment_10", "count": 1 },
+        { "item": "lighter_3", "count": 2 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "special_10",
+      "tier": "special",
+      "items": [
+        { "item": "weapon_cleaning_2", "count": 1 },
+        { "item": "gun_grease_2", "count": 1 },
+        { "item": "weapon_trinket_2", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_1",
+      "tier": "unique",
+      "items": [
+        { "item": "blade_5", "count": 1 },
+        { "item": "lighter_5", "count": 1 },
+        { "item": "perfume_5", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_2",
+      "tier": "unique",
+      "items": [
+        { "item": "laptop_4", "count": 1 },
+        { "item": "car_trinket_5", "count": 1 },
+        { "item": "ring_6", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_3",
+      "tier": "unique",
+      "items": [
+        { "item": "burner_3", "count": 1 },
+        { "item": "poker_cards_5", "count": 1 },
+        { "item": "gunpowder_3", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_4",
+      "tier": "unique",
+      "items": [
+        { "item": "car_parts_8", "count": 1 },
+        { "item": "phone_5", "count": 1 },
+        { "item": "equipment_7", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_5",
+      "tier": "unique",
+      "items": [
+        { "item": "alcohol_12", "count": 1 },
+        { "item": "watch_5", "count": 1 },
+        { "item": "condoms_5", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_6",
+      "tier": "unique",
+      "items": [
+        { "item": "headphones_5", "count": 1 },
+        { "item": "equip_carbine_4", "count": 1 },
+        { "item": "weapon_trinket_3", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_7",
+      "tier": "unique",
+      "items": [
+        { "item": "comics_5", "count": 1 },
+        { "item": "necklace_6", "count": 1 },
+        { "item": "car_parts_1", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_8",
+      "tier": "unique",
+      "items": [
+        { "item": "journal_5", "count": 1 },
+        { "item": "earrings_2", "count": 1 },
+        { "item": "vial_5", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_9",
+      "tier": "unique",
+      "items": [
+        { "item": "pharma_tools_5", "count": 1 },
+        { "item": "gun_grease_3", "count": 1 },
+        { "item": "equipment_11", "count": 1 }
+      ],
+      "verified": true
+    },
+    {
+      "id": "unique_10",
+      "tier": "unique",
+      "items": [
+        { "item": "toy_5", "count": 1 },
+        { "item": "car_device_5", "count": 1 },
+        { "item": "baseball_card_1", "count": 1 }
+      ],
+      "verified": true
+    }
+  ],
+  "barters": [
+    {
+      "id": "drill_1",
+      "items": [
+        { "item": "action_camera_2_full", "count": 1 },
+        { "item": "usb_1_full", "count": 2 },
+        { "item": "cash_1", "count": 50000 }
+      ],
+      "result": "drill_1"
+    },
+    {
+      "id": "glass_cutter_1",
+      "items": [
+        { "item": "tablet_1_full", "count": 3 }
+      ],
+      "result": "glass_cutter_1"
+    },
+    {
+      "id": "vip_key_1",
+      "items": [
+        { "item": "police_evidence_1", "count": 20 }
+      ],
+      "result": "vip_key_4"
+    },
+    {
+      "id": "vip_key_2",
+      "items": [
+        { "item": "deposit_box_1_full", "count": 1 }
+      ],
+      "result": "vip_key_5"
+    },
+    {
+      "id": "decoder_1",
+      "items": [
+        { "item": "decoder_1", "count": 3 },
+        { "item": "cash_1", "count": 10000 }
+      ],
+      "result": "decoder_2"
+    },
+    {
+      "id": "decoder_2",
+      "items": [
+        { "item": "action_camera_2_full", "count": 1 }
+      ],
+      "result": "decoder_2"
+    },
+    {
+      "id": "police_badge_1",
+      "items": [
+        { "item": "police_badge_1", "count": 15 }
+      ],
+      "result": "police_badge_2"
+    },
+    {
+      "id": "defense_module_2",
+      "items": [
+        { "item": "defense_module_2", "count": 1 },
+        { "item": "cash_1", "count": 250000 }
+      ],
+      "result": "defense_module_3"
+    },
+    {
+      "id": "evict_plot_1",
+      "items": [
+        { "item": "decoder_2", "count": 50 }
+      ],
+      "result": "evict_plot_1"
+    }
+  ],
+  "protected_items": [
+    "action_camera_1_cumulative",
+    "action_camera_2_cumulative",
+    "action_camera_2_full",
+    "action_camera_3_cumulative",
+    "bolt_cutter",
+    "buletti_soltempra",
+    "cargo_manifest_1_cumulative",
+    "cargo_manifest_2_cumulative",
+    "cargo_manifest_3_cumulative",
+    "decoder_1",
+    "decoder_2",
+    "decoder_3",
+    "defense_module_1",
+    "defense_module_2",
+    "defense_module_3",
+    "deposit_box_1_cumulative",
+    "deposit_box_1_full",
+    "drill_1",
+    "evict_plot_1",
+    "fukurou_tensa",
+    "glass_cutter_1",
+    "lockpick_1",
+    "longhorn_titan",
+    "longhorn_van",
+    "longhorn_wild",
+    "police_badge_1",
+    "police_badge_2",
+    "police_badge_3",
+    "police_evidence_1",
+    "police_radio_1",
+    "romanov_r8",
+    "room_key_1",
+    "room_key_10",
+    "room_key_11",
+    "room_key_12",
+    "room_key_13",
+    "room_key_2",
+    "room_key_3",
+    "room_key_4",
+    "room_key_5",
+    "room_key_6",
+    "room_key_7",
+    "room_key_8",
+    "room_key_9",
+    "royal_e",
+    "royal_j",
+    "safe_key_1",
+    "safe_key_10",
+    "safe_key_11",
+    "safe_key_12",
+    "safe_key_13",
+    "safe_key_14",
+    "safe_key_2",
+    "safe_key_3",
+    "safe_key_4",
+    "safe_key_5",
+    "safe_key_6",
+    "safe_key_7",
+    "safe_key_8",
+    "safe_key_9",
+    "storage_lockpick_1",
+    "super_bolt_cutter",
+    "tablet_1_cumulative",
+    "tablet_1_full",
+    "usb_1_cumulative",
+    "usb_1_full",
+    "vip_key_1",
+    "vip_key_2",
+    "vip_key_3",
+    "vip_key_4",
+    "vip_key_5",
+    "vip_key_6"
+  ]
+}
