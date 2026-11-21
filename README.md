@@ -15,4 +15,4 @@ The first icon scan takes about a minute. The app extracts item icons from your 
 
 The overlay reads the Bag, open containers, the Fence sale grid, vehicle Trunk and Cargo. Bag and open safe were verified on native 1080p, and support varies by grid and resolution. If something looks wrong, describe the grid, resolution and game UI scale in [a support issue](https://github.com/Ku-Tadao/rob-run-scanner-releases/issues/new). For an overlay issue, use **Overlay → Save debug log** and review the file before attaching it.
 
-This repository hosts the free Windows installers, signed update manifest and derived item catalog. ROB RUN is developed and published by Kefir.
+This repository hosts the free Windows installers, updater signatures, update manifest and derived item catalog. ROB RUN is developed and published by Kefir.
